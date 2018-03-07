@@ -1,0 +1,4 @@
+<map id="UART_init" name="UART_init">
+<area shape="rect" id="node2" href="$_u_a_r_t_8c.html#a17c9d1e46b959f19ee19a1bde95284e2" title="Clock gating de UART. " alt="" coords="141,5,283,32"/>
+<area shape="rect" id="node3" href="$_u_a_r_t_8c.html#a584b6e9cc784e816974cf50b4e24ff6f" title="enables the RX UART interrupt). This function should include the next sentence: while (!(UART0_S1 &amp; U..." alt="" coords="133,56,291,83"/>
+</map>

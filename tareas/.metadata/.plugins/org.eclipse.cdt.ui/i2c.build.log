@@ -1,0 +1,11 @@
+18:03:08 **** Incremental Build of configuration Debug for project i2c ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "i2c.elf"
+   text	   data	    bss	    dec	    hex	filename
+  56296	    212	  44340	 100848	  189f0	i2c.elf
+Finished building: i2c.siz
+ 
+
+18:03:10 Build Finished (took 2s.418ms)
+

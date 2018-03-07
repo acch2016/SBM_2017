@@ -1,0 +1,6 @@
+<map id="RTC_get_String_Hour" name="RTC_get_String_Hour">
+<area shape="rect" id="node2" href="$_f_s_m_l_c_d_8h.html#aba6ee3bc1bf307933304682f3d9c1728" title="/* Función que se encarga de llamar a funciones que leen la hora del RTC " alt="" coords="216,5,317,32"/>
+<area shape="rect" id="node3" href="$_f_s_m_l_c_d_8h.html#aaea0e23d6555c9ede1e61133c8e2cfe6" title="/* Función del estado que hace el llamado de funciones que permiten configurar la hora ..." alt="" coords="233,56,300,83"/>
+<area shape="rect" id="node4" href="$menu_8h.html#a504975bba09dfde91a2c9ee6d2370c07" title="menu principal de la terminales que utilizan UART " alt="" coords="200,107,333,133"/>
+<area shape="rect" id="node5" href="$menu_8h.html#a1b1ff2befe8f028af5976f536526b60a" title="función / estado en el cual se puede leer la hora " alt="" coords="211,157,323,184"/>
+</map>

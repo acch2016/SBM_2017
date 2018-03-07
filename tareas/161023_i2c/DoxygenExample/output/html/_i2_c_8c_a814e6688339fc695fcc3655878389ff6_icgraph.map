@@ -1,0 +1,5 @@
+<map id="I2C_pinConfig" name="I2C_pinConfig">
+<area shape="rect" id="node2" href="$_i2_c_8h.html#ad3debd22077c360e4160b99d091fe44c" title="Configures the I2C port based on the input parameters. Also, internally this function configures the ..." alt="" coords="155,5,220,32"/>
+<area shape="rect" id="node3" href="$_r_t_c_8h.html#aaacc65d028b006a961eef7ab69b903c5" title="Inicializar el RTC con hora predeterminada. " alt="" coords="268,5,339,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="387,5,437,32"/>
+</map>

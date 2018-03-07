@@ -1,0 +1,6 @@
+<map id="Configuration_LCD" name="Configuration_LCD">
+<area shape="rect" id="node2" href="$_g_p_i_o_8c.html#a621b0dc3536c64501a7a6c560b667355" title="This function enables the GPIO clock by configuring the corresponding bit and register in the System ..." alt="" coords="221,5,352,32"/>
+<area shape="rect" id="node3" href="$_g_p_i_o_8c.html#a61ab453960483e05a0e7a10ab63e6f22" title="This function configure different characteristics in an specific GPIO: pullup or pulldown resistor..." alt="" coords="203,56,370,83"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#ab6dd1d7bf26b2a8127f5806288779dba" title="This function configure specific pins of a GPIO port as input when 1 logic is written or output when ..." alt="" coords="207,107,366,133"/>
+<area shape="rect" id="node5" href="$_n_v_i_c_8c.html#a1a4e74e5f147d23a9070d864c4f20606" title="This function enables a IRQ in the NVIC and establishes its priority. " alt="" coords="183,157,391,184"/>
+</map>

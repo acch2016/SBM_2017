@@ -1,0 +1,108 @@
+11:29:31 **** Build of configuration Debug for project 170222_uart_spi_tarea ****
+make -j4 all 
+Building file: ../utilities/fsl_debug_console.c
+Building file: ../utilities/fsl_notifier.c
+Building file: ../utilities/fsl_sbrk.c
+Building file: ../utilities/fsl_shell.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -c -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"utilities/fsl_notifier.d" -MT"utilities/fsl_notifier.o" -c -o "utilities/fsl_notifier.o" "../utilities/fsl_notifier.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"utilities/fsl_sbrk.d" -MT"utilities/fsl_sbrk.o" -c -o "utilities/fsl_sbrk.o" "../utilities/fsl_sbrk.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"utilities/fsl_shell.d" -MT"utilities/fsl_shell.o" -c -o "utilities/fsl_shell.o" "../utilities/fsl_shell.c"
+Finished building: ../utilities/fsl_sbrk.c
+ 
+Building file: ../startup/startup_MK64F12.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -x assembler-with-cpp -MMD -MP -MF"startup/startup_MK64F12.d" -MT"startup/startup_MK64F12.o" -c -o "startup/startup_MK64F12.o" "../startup/startup_MK64F12.S"
+Finished building: ../startup/startup_MK64F12.S
+ 
+Building file: ../startup/system_MK64F12.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"startup/system_MK64F12.d" -MT"startup/system_MK64F12.o" -c -o "startup/system_MK64F12.o" "../startup/system_MK64F12.c"
+Finished building: ../utilities/fsl_notifier.c
+ 
+Building file: ../source/User.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/User.d" -MT"source/User.o" -c -o "source/User.o" "../source/User.c"
+Finished building: ../startup/system_MK64F12.c
+ 
+Finished building: ../utilities/fsl_shell.c
+Building file: ../source/freertos_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/freertos_uart.d" -MT"source/freertos_uart.o" -c -o "source/freertos_uart.o" "../source/freertos_uart.c"
+ 
+Building file: ../source/main.c
+Invoking: Cross ARM C Compiler
+Finished building: ../utilities/fsl_debug_console.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/main.d" -MT"source/main.o" -c -o "source/main.o" "../source/main.c"
+ 
+Building file: ../freertos/Source/portable/MemMang/heap_4.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"freertos/Source/portable/MemMang/heap_4.d" -MT"freertos/Source/portable/MemMang/heap_4.o" -c -o "freertos/Source/portable/MemMang/heap_4.o" "../freertos/Source/portable/MemMang/heap_4.c"
+../source/User.c:23:15: error: 'background_buffer' undeclared here (not in a function)
+     .buffer = background_buffer,
+               ^
+../source/User.c:28:1: error: invalid initializer
+ uint8_t arrayForQueue[]=0;
+ ^
+../source/User.c: In function 'teraTermTask':
+../source/User.c:37:21: error: expected expression before 'uart_rtos_handle_t'
+   UART_RTOS_Receive(uart_rtos_handle_t *handle, uint8_t *buffer, uint32_t length, size_t *received);
+                     ^
+../source/User.c:37:21: warning: passing argument 1 of 'UART_RTOS_Receive' from incompatible pointer type [enabled by default]
+In file included from ../source/User.c:13:0:
+../drivers/fsl_uart_freertos.h:156:5: note: expected 'struct uart_rtos_handle_t *' but argument is of type 'uint8_t *'
+ int UART_RTOS_Receive(uart_rtos_handle_t *handle, uint8_t *buffer, uint32_t length, size_t *received);
+     ^
+../source/User.c:37:21: error: too few arguments to function 'UART_RTOS_Receive'
+   UART_RTOS_Receive(uart_rtos_handle_t *handle, uint8_t *buffer, uint32_t length, size_t *received);
+                     ^
+In file included from ../source/User.c:13:0:
+../drivers/fsl_uart_freertos.h:156:5: note: declared here
+ int UART_RTOS_Receive(uart_rtos_handle_t *handle, uint8_t *buffer, uint32_t length, size_t *received);
+     ^
+../source/User.c:39:10: error: 'buffer' undeclared (first use in this function)
+   if(13==buffer){
+          ^
+../source/User.c:39:10: note: each undeclared identifier is reported only once for each function it appears in
+../source/User.c:39:8: warning: comparison between pointer and integer [enabled by default]
+   if(13==buffer){
+        ^
+../source/User.c:46:18: error: expected expression before 'uart_rtos_handle_t'
+   UART_RTOS_Send(uart_rtos_handle_t *handle, const uint8_t *buffer, uint32_t length);
+                  ^
+../source/User.c:46:18: warning: passing argument 1 of 'UART_RTOS_Send' from incompatible pointer type [enabled by default]
+In file included from ../source/User.c:13:0:
+../drivers/fsl_uart_freertos.h:143:5: note: expected 'struct uart_rtos_handle_t *' but argument is of type 'uint8_t *'
+ int UART_RTOS_Send(uart_rtos_handle_t *handle, const uint8_t *buffer, uint32_t length);
+     ^
+../source/User.c:46:18: error: too few arguments to function 'UART_RTOS_Send'
+   UART_RTOS_Send(uart_rtos_handle_t *handle, const uint8_t *buffer, uint32_t length);
+                  ^
+In file included from ../source/User.c:13:0:
+../drivers/fsl_uart_freertos.h:143:5: note: declared here
+ int UART_RTOS_Send(uart_rtos_handle_t *handle, const uint8_t *buffer, uint32_t length);
+     ^
+../source/User.c: In function 'blueTermTask':
+../source/User.c:58:2: error: expected ';' before '}' token
+  }
+  ^
+../source/freertos_uart.c: In function 'uart_task':
+../source/freertos_uart.c:156:48: error: expected expression before ',' token
+             UART_RTOS_Send(&handle, (uint8_t *), n);
+                                                ^
+source/subdir.mk:24: recipe for target 'source/User.o' failed
+source/subdir.mk:24: recipe for target 'source/freertos_uart.o' failed
+make: *** [source/User.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [source/freertos_uart.o] Error 1
+Finished building: ../freertos/Source/portable/MemMang/heap_4.c
+ 
+Finished building: ../source/main.c
+ 
+
+11:29:32 Build Finished (took 1s.903ms)
+

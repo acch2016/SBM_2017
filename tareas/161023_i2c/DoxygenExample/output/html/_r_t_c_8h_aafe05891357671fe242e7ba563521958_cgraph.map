@@ -1,0 +1,11 @@
+<map id="RTC_set_Year" name="RTC_set_Year">
+<area shape="rect" id="node2" href="$_r_t_c_8c.html#a72b3cd437d82fa62ffe9185c069c0f57" title="escribir en el RTC " alt="" coords="160,135,268,161"/>
+<area shape="rect" id="node3" href="$_i2_c_8c.html#a0f3ef5ef6878c9337e4bd8341628e42e" title="It selects between transmitter mode or receiver mode. " alt="" coords="491,33,615,60"/>
+<area shape="rect" id="node4" href="$_i2_c_8c.html#a09d9820de1e99617f206ef60a9a9d2e8" title="Generates the start signal. When MST bit is changed from 0 to 1, a START signal is generated on the b..." alt="" coords="333,84,408,111"/>
+<area shape="rect" id="node6" href="$_i2_c_8c.html#a9b27c7aa55f8a11a274dd36b6f8a6d2f" title="It writes the data to be transmitted into the transmission buffer. When you want to write a value int..." alt="" coords="316,135,425,161"/>
+<area shape="rect" id="node7" href="$_i2_c_8c.html#a05143bfcf3eeb04ec1dfc7e4ab952689" title="Indicates the status of the bus regardless of slave or master mode. Internally checks the busy bit in..." alt="" coords="335,185,406,212"/>
+<area shape="rect" id="node8" href="$_i2_c_8c.html#aa5a3b846186cda9225be84e16af84356" title="Indicates if the acknowledge was received. " alt="" coords="321,236,421,263"/>
+<area shape="rect" id="node9" href="$_i2_c_8c.html#a0635b74679cdb09c91ef36aa4181a911" title="Generates the stop signal. When this bit changes from 1 to 0, a STOP signal is generated and the mode..." alt="" coords="334,33,407,60"/>
+<area shape="rect" id="node10" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="344,287,397,313"/>
+<area shape="rect" id="node5" href="$_i2_c_8c.html#a2371441eff8976056f8ffbe086176783" title="It selects between master or slave mode. " alt="" coords="473,84,633,111"/>
+</map>

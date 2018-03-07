@@ -1,0 +1,8 @@
+<map id="FTM_Init" name="FTM_Init">
+<area shape="rect" id="node2" href="$_flex_timer_8c.html#a851df2dfc2d6e601d1a3e3993cae3cc6" title="FTM_ClockGating" alt="" coords="125,5,252,32"/>
+<area shape="rect" id="node3" href="$_flex_timer_8c.html#adb795ad2c4a00b12aca4a204ce94606a" title="FTM_Stat_Control" alt="" coords="125,56,252,83"/>
+<area shape="rect" id="node4" href="$_flex_timer_8c.html#a91f900437c90ebaa27019fabc5e9db13" title="FTM_MODE" alt="" coords="141,107,236,133"/>
+<area shape="rect" id="node5" href="$_flex_timer_8c.html#a76f66bc8d80e5d6bbd41aa46d86582fb" title="FTM_MOD" alt="" coords="146,157,231,184"/>
+<area shape="rect" id="node6" href="$_flex_timer_8c.html#a9f90bc1a6e0a5453bf83edf2375f5e2c" title="FTM_C0SC" alt="" coords="144,208,233,235"/>
+<area shape="rect" id="node7" href="$_flex_timer_8c.html#a0326bd0b2305138a25ee7bd4b0801f2c" title="FTM_CONF" alt="" coords="143,259,234,285"/>
+</map>

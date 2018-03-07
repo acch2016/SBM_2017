@@ -1,0 +1,11 @@
+18:11:51 **** Incremental Build of configuration Debug for project Semaphores ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Semaphores.elf"
+   text	   data	    bss	    dec	    hex	filename
+  24424	    132	  13188	  37744	   9370	Semaphores.elf
+Finished building: Semaphores.siz
+ 
+
+18:11:51 Build Finished (took 531ms)
+

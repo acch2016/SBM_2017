@@ -1,0 +1,36 @@
+<map id="setHour" name="setHour">
+<area shape="rect" id="node2" href="$_global_functions_8c.html#a10f6813b92b9cfb51fe4b518b90d4317" title="HextoBinary" alt="" coords="148,183,241,209"/>
+<area shape="rect" id="node3" href="$_r_t_c_8c.html#aaec022c07acfd9b12270e6ddd8ac2c8a" title="obtiene la hora leyendo del RTC por I2C " alt="" coords="335,208,442,235"/>
+<area shape="rect" id="node16" href="$_r_t_c_8c.html#a74c11cfe5c615e495e94fa1980bc7e91" title="obtiene los minutos leyendo del RTC por I2C " alt="" coords="326,259,451,285"/>
+<area shape="rect" id="node17" href="$_l_c_d_nokia5110_8c.html#adc1fba60e5f678b64c83928f2acfdd92" title="/**it clears all the figures in the LCD " alt="" coords="137,512,252,539"/>
+<area shape="rect" id="node24" href="$_l_c_d_nokia5110_8c.html#a4ca11709ea8f3d65c2b0b84486571564" title="/It is used to indicate the place for writing a new character in the LCD. The values that x can take ..." alt="" coords="325,563,453,589"/>
+<area shape="rect" id="node25" href="$_l_c_d_nokia5110_8c.html#a525ae25a85275a66f6b7b0c09ea202e2" title="/**It write a string into the LCD " alt="" coords="120,613,269,640"/>
+<area shape="rect" id="node27" href="$_r_t_c_8c.html#a8cb2ebc7b464f6eb7231a5e5b98400af" title="entrega la hora en un string " alt="" coords="121,335,268,361"/>
+<area shape="rect" id="node30" href="$_g_p_i_o_8c.html#a164a6ff638b32776e841945a3fa1ee11" title="Retorna el valor de la bandera de la interrupción del puerto B. " alt="" coords="136,664,253,691"/>
+<area shape="rect" id="node31" href="$_g_p_i_o_8c.html#a48d326be6539cb51ec73ee44a677da30" title="Limpia el valor de la bandera de la interrupción del puerto B. " alt="" coords="135,715,255,741"/>
+<area shape="rect" id="node32" href="$_r_t_c_8c.html#aa9538235ba55dcde0eaf49021c5c0871" title="escribe la hora en el RTC " alt="" coords="141,411,248,437"/>
+<area shape="rect" id="node34" href="$_r_t_c_8c.html#a68f0460566b57629d84db7a229f32983" title="escribe los minutos en el RTC " alt="" coords="326,461,451,488"/>
+<area shape="rect" id="node35" href="$_g_p_i_o_8c.html#a116d54981f402d02ba1d2a7f38f94caf" title="clearAllFlag" alt="" coords="149,765,240,792"/>
+<area shape="rect" id="node4" href="$_r_t_c_8c.html#a9a98cbc7a571a7ac2a3a5266a80ec235" title="leer del RTC " alt="" coords="525,259,632,285"/>
+<area shape="rect" id="node5" href="$_i2_c_8c.html#a0f3ef5ef6878c9337e4bd8341628e42e" title="It selects between transmitter mode or receiver mode. " alt="" coords="906,348,1030,375"/>
+<area shape="rect" id="node6" href="$_i2_c_8c.html#a09d9820de1e99617f206ef60a9a9d2e8" title="Generates the start signal. When MST bit is changed from 0 to 1, a START signal is generated on the b..." alt="" coords="731,360,806,387"/>
+<area shape="rect" id="node8" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="742,512,795,539"/>
+<area shape="rect" id="node9" href="$_i2_c_8c.html#a9b27c7aa55f8a11a274dd36b6f8a6d2f" title="It writes the data to be transmitted into the transmission buffer. When you want to write a value int..." alt="" coords="714,208,823,235"/>
+<area shape="rect" id="node10" href="$_i2_c_8c.html#a05143bfcf3eeb04ec1dfc7e4ab952689" title="Indicates the status of the bus regardless of slave or master mode. Internally checks the busy bit in..." alt="" coords="733,411,804,437"/>
+<area shape="rect" id="node11" href="$_i2_c_8c.html#aa5a3b846186cda9225be84e16af84356" title="Indicates if the acknowledge was received. " alt="" coords="719,309,819,336"/>
+<area shape="rect" id="node12" href="$_i2_c_8c.html#a577158ebfa27fcb673a5727e95d2d853" title="It generates a repeated start that is needed when master reads data. " alt="" coords="705,5,832,32"/>
+<area shape="rect" id="node13" href="$_i2_c_8c.html#aae489f3896588f59173688541155aa32" title="It generates the Not ACKnowledge that is needed when the master reads data. " alt="" coords="727,56,811,83"/>
+<area shape="rect" id="node14" href="$_i2_c_8c.html#a689c3512503f9420b3d4fcd32ad6585f" title="It reads data from the receiving buffer. " alt="" coords="715,107,822,133"/>
+<area shape="rect" id="node15" href="$_i2_c_8c.html#a0635b74679cdb09c91ef36aa4181a911" title="Generates the stop signal. When this bit changes from 1 to 0, a STOP signal is generated and the mode..." alt="" coords="732,259,805,285"/>
+<area shape="rect" id="node7" href="$_i2_c_8c.html#a2371441eff8976056f8ffbe086176783" title="It selects between master or slave mode. " alt="" coords="888,272,1048,299"/>
+<area shape="rect" id="node18" href="$_l_c_d_nokia5110_8c.html#a50599408f6fa872625e51271742cb013" title="It writes a byte in the LCD memory. The place of writting is the last place that was indicated by LCD..." alt="" coords="508,613,649,640"/>
+<area shape="rect" id="node19" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="719,715,819,741"/>
+<area shape="rect" id="node20" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="713,765,824,792"/>
+<area shape="rect" id="node21" href="$_s_p_i_8c.html#a747d339e8353778bf7f8635a91d0a5f9" title="/*It stars the SPI transmission by modifying the value of HALT bit " alt="" coords="697,563,840,589"/>
+<area shape="rect" id="node22" href="$_s_p_i_8c.html#a8ca8cd04c9bc2ef898aee5d38b829642" title="/*It transmits the information contained in data " alt="" coords="704,613,833,640"/>
+<area shape="rect" id="node23" href="$_s_p_i_8c.html#a12e009cdc7cb64988ecf0814c3524f88" title="/*It stops the SPI transmission by modifying the value of HALT bit " alt="" coords="697,664,840,691"/>
+<area shape="rect" id="node26" href="$_l_c_d_nokia5110_8c.html#ab566963d1b8e9928cbf0148cdd736b39" title="/**It write a character in the LCD " alt="" coords="317,613,460,640"/>
+<area shape="rect" id="node28" href="$_r_t_c_8c.html#adebd8454ab83907563fb817effe1a72e" title="Lee los segundos del RTC. " alt="" coords="323,360,454,387"/>
+<area shape="rect" id="node29" href="$_i2_c_8c.html#a177e862f34ce0dab4d55659013ec012b" title="getModule_State" alt="" coords="329,309,449,336"/>
+<area shape="rect" id="node33" href="$_r_t_c_8c.html#a72b3cd437d82fa62ffe9185c069c0f57" title="escribir en el RTC " alt="" coords="525,411,633,437"/>
+</map>

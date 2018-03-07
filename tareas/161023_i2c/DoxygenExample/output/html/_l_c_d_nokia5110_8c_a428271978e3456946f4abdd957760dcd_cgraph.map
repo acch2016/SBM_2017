@@ -1,0 +1,12 @@
+<map id="LCDNokia_init" name="LCDNokia_init">
+<area shape="rect" id="node2" href="$_g_p_i_o_8c.html#a621b0dc3536c64501a7a6c560b667355" title="This function enables the GPIO clock by configuring the corresponding bit and register in the System ..." alt="" coords="175,5,306,32"/>
+<area shape="rect" id="node3" href="$_g_p_i_o_8c.html#ab6dd1d7bf26b2a8127f5806288779dba" title="This function configure specific pins of a GPIO port as input when 1 logic is written or output when ..." alt="" coords="161,56,320,83"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#a61ab453960483e05a0e7a10ab63e6f22" title="This function configure different characteristics in an specific GPIO: pullup or pulldown resistor..." alt="" coords="157,107,324,133"/>
+<area shape="rect" id="node5" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="388,157,499,184"/>
+<area shape="rect" id="node6" href="$_l_c_d_nokia5110_8c.html#a05719380af2f7460f0e8e39855af5194" title="/**It used in the initialisation routine " alt="" coords="198,309,283,336"/>
+<area shape="rect" id="node7" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="393,208,493,235"/>
+<area shape="rect" id="node8" href="$_l_c_d_nokia5110_8c.html#a50599408f6fa872625e51271742cb013" title="It writes a byte in the LCD memory. The place of writting is the last place that was indicated by LCD..." alt="" coords="170,259,311,285"/>
+<area shape="rect" id="node9" href="$_s_p_i_8c.html#a747d339e8353778bf7f8635a91d0a5f9" title="/*It stars the SPI transmission by modifying the value of HALT bit " alt="" coords="372,259,515,285"/>
+<area shape="rect" id="node10" href="$_s_p_i_8c.html#a8ca8cd04c9bc2ef898aee5d38b829642" title="/*It transmits the information contained in data " alt="" coords="379,309,508,336"/>
+<area shape="rect" id="node11" href="$_s_p_i_8c.html#a12e009cdc7cb64988ecf0814c3524f88" title="/*It stops the SPI transmission by modifying the value of HALT bit " alt="" coords="372,360,515,387"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="clearFlag_Button" name="clearFlag_Button">
+<area shape="rect" id="node2" href="$_f_s_m_l_c_d_8h.html#aba6ee3bc1bf307933304682f3d9c1728" title="/* Función que se encarga de llamar a funciones que leen la hora del RTC " alt="" coords="173,5,275,32"/>
+<area shape="rect" id="node3" href="$_f_s_m_l_c_d_8h.html#ae767c1c2905629e76afaf1bdfde086e0" title="/* Función que despliega un menu en el LCD para poder seleccionar entre configurar hora..." alt="" coords="185,56,263,83"/>
+<area shape="rect" id="node4" href="$_f_s_m_l_c_d_8h.html#af059e8fa50704e2c0bec8995044bc85e" title="/* Función del estado que hace el llamado de funciones que permiten configurar la fecha ..." alt="" coords="191,107,257,133"/>
+<area shape="rect" id="node5" href="$_f_s_m_l_c_d_8h.html#aaea0e23d6555c9ede1e61133c8e2cfe6" title="/* Función del estado que hace el llamado de funciones que permiten configurar la hora ..." alt="" coords="191,157,257,184"/>
+</map>

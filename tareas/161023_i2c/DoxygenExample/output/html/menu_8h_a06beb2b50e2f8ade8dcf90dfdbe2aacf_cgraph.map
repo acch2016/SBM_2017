@@ -1,0 +1,10 @@
+<map id="communicationT1T2_State" name="communicationT1T2_State">
+<area shape="rect" id="node2" href="$_u_a_r_t_8c.html#af95ee594ce5f1619abbe4f2393b1903e" title="It sends a string character through the serial port. " alt="" coords="253,5,368,32"/>
+<area shape="rect" id="node3" href="$_u_a_r_t_8c.html#ae69fe2846b6410c22876356a9b3f0083" title="It sends one character through the serial port. This function should include the next sentence: while..." alt="" coords="440,31,548,57"/>
+<area shape="rect" id="node5" href="$_u_a_r_t_8c.html#a703057d4f928499638874473035502d0" title="Read the status flag that indicates if there is a new data in mailbox. " alt="" coords="245,107,376,133"/>
+<area shape="rect" id="node6" href="$_u_a_r_t_8c.html#a22122abf11b3f086d27feb7dde4094a5" title="Clear the status flag that indicates if there is a new data in mailbox. " alt="" coords="230,157,391,184"/>
+<area shape="rect" id="node7" href="$_u_a_r_t_8c.html#ac1c3e068363b8c659e70109d47c1db15" title="Reads the content of the mailbox. " alt="" coords="229,208,392,235"/>
+<area shape="rect" id="node8" href="$_global_functions_8c.html#a0071e12287aece481b9ad59f8cb7338d" title="CleanArray" alt="" coords="267,259,354,285"/>
+<area shape="rect" id="node9" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="284,309,337,336"/>
+<area shape="rect" id="node4" href="$_u_a_r_t_8c.html#aaedfd7d062f22ca770958fee47be83b6" title="UARTx_S1" alt="" coords="596,31,683,57"/>
+</map>

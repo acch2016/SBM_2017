@@ -1,0 +1,11 @@
+13:50:15 **** Incremental Build of configuration Debug for project eventos ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "eventos.elf"
+   text	   data	    bss	    dec	    hex	filename
+  27104	    124	  13196	  40424	   9de8	eventos.elf
+Finished building: eventos.siz
+ 
+
+13:50:16 Build Finished (took 1s.93ms)
+

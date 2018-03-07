@@ -1,0 +1,8 @@
+<map id="LCDNokia_sendChar" name="LCDNokia_sendChar">
+<area shape="rect" id="node2" href="$_l_c_d_nokia5110_8h.html#a8b3253b69d143795c1dde10f541beced" title="/**It write a string into the LCD " alt="" coords="196,120,345,147"/>
+<area shape="rect" id="node7" href="$menu_8h.html#a96c2b25986341e028ecce36eb67348a9" title="función / estado en el cual se puede hacer el echo " alt="" coords="393,208,507,235"/>
+<area shape="rect" id="node3" href="$_f_s_m_l_c_d_8h.html#aba6ee3bc1bf307933304682f3d9c1728" title="/* Función que se encarga de llamar a funciones que leen la hora del RTC " alt="" coords="399,5,501,32"/>
+<area shape="rect" id="node4" href="$_f_s_m_l_c_d_8h.html#ae767c1c2905629e76afaf1bdfde086e0" title="/* Función que despliega un menu en el LCD para poder seleccionar entre configurar hora..." alt="" coords="411,56,489,83"/>
+<area shape="rect" id="node5" href="$_f_s_m_l_c_d_8h.html#af059e8fa50704e2c0bec8995044bc85e" title="/* Función del estado que hace el llamado de funciones que permiten configurar la fecha ..." alt="" coords="417,107,483,133"/>
+<area shape="rect" id="node6" href="$_f_s_m_l_c_d_8h.html#aaea0e23d6555c9ede1e61133c8e2cfe6" title="/* Función del estado que hace el llamado de funciones que permiten configurar la hora ..." alt="" coords="417,157,483,184"/>
+</map>

@@ -1,0 +1,11 @@
+18:32:39 **** Incremental Build of configuration Debug for project TimeSlicing ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "TimeSlicing.elf"
+   text	   data	    bss	    dec	    hex	filename
+  23468	    136	  13184	  36788	   8fb4	TimeSlicing.elf
+Finished building: TimeSlicing.siz
+ 
+
+18:32:44 Build Finished (took 4s.587ms)
+

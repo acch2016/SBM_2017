@@ -1,0 +1,11 @@
+19:50:40 **** Incremental Build of configuration Debug for project Mutex ****
+make -j1 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Mutex.elf"
+   text	   data	    bss	    dec	    hex	filename
+  24320	    128	  13196	  37644	   930c	Mutex.elf
+Finished building: Mutex.siz
+ 
+
+19:50:42 Build Finished (took 2s.121ms)
+

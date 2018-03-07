@@ -1,0 +1,5 @@
+<map id="UARTx_Clear_mailBoxContent" name="UARTx_Clear_mailBoxContent">
+<area shape="rect" id="node2" href="$menu_8h.html#a17967837d6d07246adb5fee041adadb3" title="función / estado en el cual se puede leer la memoria al ingresar el valor de la dirreccion a leer ..." alt="" coords="252,5,383,32"/>
+<area shape="rect" id="node3" href="$menu_8h.html#ab2e48e2d5cd8873d3eed9464df6e23c9" title="función / estado en el cual se configura la hora " alt="" coords="265,56,370,83"/>
+<area shape="rect" id="node4" href="$menu_8h.html#a1d0928b273269905fd0b0c4f6b8194bb" title="función / estado en el cual se configura la fecha " alt="" coords="265,107,370,133"/>
+</map>

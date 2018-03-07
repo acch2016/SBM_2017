@@ -1,0 +1,6 @@
+17:44:35 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+
+17:44:36 Build Finished (took 921ms)
+

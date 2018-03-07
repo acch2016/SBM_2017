@@ -1,0 +1,11 @@
+19:29:23 **** Incremental Build of configuration Debug for project IDLE_taskHookFunction ****
+make -j1 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "IDLE_taskHookFunction.elf"
+   text	   data	    bss	    dec	    hex	filename
+  24424	    128	  13196	  37748	   9374	IDLE_taskHookFunction.elf
+Finished building: IDLE_taskHookFunction.siz
+ 
+
+19:29:30 Build Finished (took 7s.706ms)
+

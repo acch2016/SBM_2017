@@ -1,0 +1,24 @@
+<map id="formatHour_State" name="formatHour_State">
+<area shape="rect" id="node2" href="$_u_a_r_t_8c.html#af95ee594ce5f1619abbe4f2393b1903e" title="It sends a string character through the serial port. " alt="" coords="200,107,315,133"/>
+<area shape="rect" id="node3" href="$_u_a_r_t_8c.html#ae69fe2846b6410c22876356a9b3f0083" title="It sends one character through the serial port. This function should include the next sentence: while..." alt="" coords="398,81,506,108"/>
+<area shape="rect" id="node5" href="$_u_a_r_t_8c.html#a703057d4f928499638874473035502d0" title="Read the status flag that indicates if there is a new data in mailbox. " alt="" coords="192,157,323,184"/>
+<area shape="rect" id="node6" href="$_u_a_r_t_8c.html#a22122abf11b3f086d27feb7dde4094a5" title="Clear the status flag that indicates if there is a new data in mailbox. " alt="" coords="177,208,338,235"/>
+<area shape="rect" id="node7" href="$_u_a_r_t_8c.html#ac1c3e068363b8c659e70109d47c1db15" title="Reads the content of the mailbox. " alt="" coords="176,259,339,285"/>
+<area shape="rect" id="node8" href="$_r_t_c_8c.html#a0cad1d9c119a9fecac4dd023423fccf7" title="Cambia entre formato 12 Horas o 24 horas. " alt="" coords="189,309,326,336"/>
+<area shape="rect" id="node4" href="$_u_a_r_t_8c.html#aaedfd7d062f22ca770958fee47be83b6" title="UARTx_S1" alt="" coords="576,81,663,108"/>
+<area shape="rect" id="node9" href="$_r_t_c_8c.html#aaec022c07acfd9b12270e6ddd8ac2c8a" title="obtiene la hora leyendo del RTC por I2C " alt="" coords="399,259,505,285"/>
+<area shape="rect" id="node22" href="$_r_t_c_8c.html#adebd8454ab83907563fb817effe1a72e" title="Lee los segundos del RTC. " alt="" coords="387,309,517,336"/>
+<area shape="rect" id="node23" href="$_r_t_c_8c.html#a72b3cd437d82fa62ffe9185c069c0f57" title="escribir en el RTC " alt="" coords="565,360,673,387"/>
+<area shape="rect" id="node10" href="$_r_t_c_8c.html#a9a98cbc7a571a7ac2a3a5266a80ec235" title="leer del RTC " alt="" coords="566,259,673,285"/>
+<area shape="rect" id="node11" href="$_i2_c_8c.html#a0f3ef5ef6878c9337e4bd8341628e42e" title="It selects between transmitter mode or receiver mode. " alt="" coords="914,348,1038,375"/>
+<area shape="rect" id="node12" href="$_i2_c_8c.html#a09d9820de1e99617f206ef60a9a9d2e8" title="Generates the start signal. When MST bit is changed from 0 to 1, a START signal is generated on the b..." alt="" coords="747,259,822,285"/>
+<area shape="rect" id="node14" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="758,461,811,488"/>
+<area shape="rect" id="node15" href="$_i2_c_8c.html#a9b27c7aa55f8a11a274dd36b6f8a6d2f" title="It writes the data to be transmitted into the transmission buffer. When you want to write a value int..." alt="" coords="730,411,839,437"/>
+<area shape="rect" id="node16" href="$_i2_c_8c.html#a05143bfcf3eeb04ec1dfc7e4ab952689" title="Indicates the status of the bus regardless of slave or master mode. Internally checks the busy bit in..." alt="" coords="749,208,820,235"/>
+<area shape="rect" id="node17" href="$_i2_c_8c.html#aa5a3b846186cda9225be84e16af84356" title="Indicates if the acknowledge was received. " alt="" coords="735,309,835,336"/>
+<area shape="rect" id="node18" href="$_i2_c_8c.html#a577158ebfa27fcb673a5727e95d2d853" title="It generates a repeated start that is needed when master reads data. " alt="" coords="721,5,848,32"/>
+<area shape="rect" id="node19" href="$_i2_c_8c.html#aae489f3896588f59173688541155aa32" title="It generates the Not ACKnowledge that is needed when the master reads data. " alt="" coords="743,56,827,83"/>
+<area shape="rect" id="node20" href="$_i2_c_8c.html#a689c3512503f9420b3d4fcd32ad6585f" title="It reads data from the receiving buffer. " alt="" coords="731,107,838,133"/>
+<area shape="rect" id="node21" href="$_i2_c_8c.html#a0635b74679cdb09c91ef36aa4181a911" title="Generates the stop signal. When this bit changes from 1 to 0, a STOP signal is generated and the mode..." alt="" coords="748,360,821,387"/>
+<area shape="rect" id="node13" href="$_i2_c_8c.html#a2371441eff8976056f8ffbe086176783" title="It selects between master or slave mode. " alt="" coords="896,272,1056,299"/>
+</map>

@@ -1,0 +1,974 @@
+20:08:36 **** Clean-only build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 clean 
+rm -rf  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o  ./utilities/fsl_debug_console.d ./utilities/fsl_sbrk.d  ./sources/board.d ./sources/clock_config.d ./sources/fsl_phy.d ./sources/lwip_tcpecho_freertos.d ./sources/pin_mux.d  ./lwip/src/netif/ppp/auth.d ./lwip/src/netif/ppp/ccp.d ./lwip/src/netif/ppp/chap-md5.d ./lwip/src/netif/ppp/chap-new.d ./lwip/src/netif/ppp/chap_ms.d ./lwip/src/netif/ppp/demand.d ./lwip/src/netif/ppp/eap.d ./lwip/src/netif/ppp/eui64.d ./lwip/src/netif/ppp/fsm.d ./lwip/src/netif/ppp/ipcp.d ./lwip/src/netif/ppp/ipv6cp.d ./lwip/src/netif/ppp/lcp.d ./lwip/src/netif/ppp/lwip_ecp.d ./lwip/src/netif/ppp/magic.d ./lwip/src/netif/ppp/mppe.d ./lwip/src/netif/ppp/multilink.d ./lwip/src/netif/ppp/ppp.d ./lwip/src/netif/ppp/pppapi.d ./lwip/src/netif/ppp/pppcrypt.d ./lwip/src/netif/ppp/pppoe.d ./lwip/src/netif/ppp/pppol2tp.d ./lwip/src/netif/ppp/pppos.d ./lwip/src/netif/ppp/upap.d ./lwip/src/netif/ppp/utils.d ./lwip/src/netif/ppp/vj.d  ./lwip/src/netif/ethernet.d ./lwip/src/netif/lowpan6.d ./lwip/src/netif/slipif.d  ./lwip/src/core/ipv6/dhcp6.d ./lwip/src/core/ipv6/ethip6.d ./lwip/src/core/ipv6/icmp6.d ./lwip/src/core/ipv6/inet6.d ./lwip/src/core/ipv6/ip6.d ./lwip/src/core/ipv6/ip6_addr.d ./lwip/src/core/ipv6/ip6_frag.d ./lwip/src/core/ipv6/mld6.d ./lwip/src/core/ipv6/nd6.d  ./lwip/src/core/ipv4/autoip.d ./lwip/src/core/ipv4/dhcp.d ./lwip/src/core/ipv4/etharp.d ./lwip/src/core/ipv4/icmp.d ./lwip/src/core/ipv4/igmp.d ./lwip/src/core/ipv4/ip4.d ./lwip/src/core/ipv4/ip4_addr.d ./lwip/src/core/ipv4/ip4_frag.d  ./lwip/src/core/def.d ./lwip/src/core/dns.d ./lwip/src/core/inet_chksum.d ./lwip/src/core/init.d ./lwip/src/core/ip.d ./lwip/src/core/mem.d ./lwip/src/core/memp.d ./lwip/src/core/netif.d ./lwip/src/core/pbuf.d ./lwip/src/core/raw.d ./lwip/src/core/stats.d ./lwip/src/core/sys.d ./lwip/src/core/tcp.d ./lwip/src/core/tcp_in.d ./lwip/src/core/tcp_out.d ./lwip/src/core/timeouts.d ./lwip/src/core/udp.d  ./lwip/src/api/api_lib.d ./lwip/src/api/api_msg.d ./lwip/src/api/err.d ./lwip/src/api/netbuf.d ./lwip/src/api/netdb.d ./lwip/src/api/netifapi.d ./lwip/src/api/sockets.d ./lwip/src/api/tcpip.d  ./lwip/port/ethernetif.d ./lwip/port/sys_arch.d  ./lwip/contrib/apps/tcpecho/tcpecho.d  ./freertos/Source/portable/MemMang/heap_3.d  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.d ./freertos/Source/portable/GCC/ARM_CM4F/port.d  ./freertos/Source/croutine.d ./freertos/Source/event_groups.d ./freertos/Source/list.d ./freertos/Source/queue.d ./freertos/Source/tasks.d ./freertos/Source/timers.d  ./drivers/fsl_adc16.d ./drivers/fsl_clock.d ./drivers/fsl_cmp.d ./drivers/fsl_cmt.d ./drivers/fsl_common.d ./drivers/fsl_crc.d ./drivers/fsl_dac.d ./drivers/fsl_dmamux.d ./drivers/fsl_dspi.d ./drivers/fsl_dspi_edma.d ./drivers/fsl_dspi_freertos.d ./drivers/fsl_edma.d ./drivers/fsl_enet.d ./drivers/fsl_ewm.d ./drivers/fsl_flash.d ./drivers/fsl_flexbus.d ./drivers/fsl_flexcan.d ./drivers/fsl_ftm.d ./drivers/fsl_gpio.d ./drivers/fsl_i2c.d ./drivers/fsl_i2c_edma.d ./drivers/fsl_i2c_freertos.d ./drivers/fsl_llwu.d ./drivers/fsl_lptmr.d ./drivers/fsl_mpu.d ./drivers/fsl_pdb.d ./drivers/fsl_pit.d ./drivers/fsl_pmc.d ./drivers/fsl_rcm.d ./drivers/fsl_rnga.d ./drivers/fsl_rtc.d ./drivers/fsl_sai.d ./drivers/fsl_sai_edma.d ./drivers/fsl_sdhc.d ./drivers/fsl_sim.d ./drivers/fsl_smc.d ./drivers/fsl_uart.d ./drivers/fsl_uart_edma.d ./drivers/fsl_uart_freertos.d ./drivers/fsl_vref.d ./drivers/fsl_wdog.d  ./devices/system_MK64F12.d  ./devices/gcc/startup_MK64F12.d  lwip_tcpecho_freertos_frdmk64f.elf
+ 
+20:08:37 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../utilities/fsl_debug_console.c
+Building file: ../utilities/fsl_sbrk.c
+Building file: ../sources/clock_config.c
+Building file: ../sources/board.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"utilities/fsl_sbrk.d" -MT"utilities/fsl_sbrk.o" -c -o "utilities/fsl_sbrk.o" "../utilities/fsl_sbrk.c"
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/clock_config.d" -MT"sources/clock_config.o" -c -o "sources/clock_config.o" "../sources/clock_config.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -c -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/board.d" -MT"sources/board.o" -c -o "sources/board.o" "../sources/board.c"
+Finished building: ../utilities/fsl_sbrk.c
+ 
+Finished building: ../sources/clock_config.c
+ 
+Finished building: ../sources/board.c
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+Building file: ../sources/fsl_phy.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../sources/pin_mux.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/fsl_phy.d" -MT"sources/fsl_phy.o" -c -o "sources/fsl_phy.o" "../sources/fsl_phy.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/pin_mux.d" -MT"sources/pin_mux.o" -c -o "sources/pin_mux.o" "../sources/pin_mux.c"
+Finished building: ../utilities/fsl_debug_console.c
+ 
+Building file: ../lwip/src/netif/ppp/auth.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/auth.d" -MT"lwip/src/netif/ppp/auth.o" -c -o "lwip/src/netif/ppp/auth.o" "../lwip/src/netif/ppp/auth.c"
+Finished building: ../sources/pin_mux.c
+Finished building: ../sources/lwip_tcpecho_freertos.c
+Finished building: ../sources/fsl_phy.c
+ 
+ 
+ 
+Building file: ../lwip/src/netif/ppp/ccp.c
+Building file: ../lwip/src/netif/ppp/chap-new.c
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/netif/ppp/chap-md5.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/chap-new.d" -MT"lwip/src/netif/ppp/chap-new.o" -c -o "lwip/src/netif/ppp/chap-new.o" "../lwip/src/netif/ppp/chap-new.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/ccp.d" -MT"lwip/src/netif/ppp/ccp.o" -c -o "lwip/src/netif/ppp/ccp.o" "../lwip/src/netif/ppp/ccp.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/chap-md5.d" -MT"lwip/src/netif/ppp/chap-md5.o" -c -o "lwip/src/netif/ppp/chap-md5.o" "../lwip/src/netif/ppp/chap-md5.c"
+Finished building: ../lwip/src/netif/ppp/auth.c
+ 
+Building file: ../lwip/src/netif/ppp/chap_ms.c
+Invoking: Cross ARM C Compiler
+Finished building: ../lwip/src/netif/ppp/chap-md5.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/chap_ms.d" -MT"lwip/src/netif/ppp/chap_ms.o" -c -o "lwip/src/netif/ppp/chap_ms.o" "../lwip/src/netif/ppp/chap_ms.c"
+Finished building: ../lwip/src/netif/ppp/ccp.c
+Finished building: ../lwip/src/netif/ppp/chap-new.c
+ 
+ 
+ 
+Building file: ../lwip/src/netif/ppp/demand.c
+Building file: ../lwip/src/netif/ppp/eap.c
+Building file: ../lwip/src/netif/ppp/eui64.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/demand.d" -MT"lwip/src/netif/ppp/demand.o" -c -o "lwip/src/netif/ppp/demand.o" "../lwip/src/netif/ppp/demand.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/eap.d" -MT"lwip/src/netif/ppp/eap.o" -c -o "lwip/src/netif/ppp/eap.o" "../lwip/src/netif/ppp/eap.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/eui64.d" -MT"lwip/src/netif/ppp/eui64.o" -c -o "lwip/src/netif/ppp/eui64.o" "../lwip/src/netif/ppp/eui64.c"
+Finished building: ../lwip/src/netif/ppp/chap_ms.c
+Finished building: ../lwip/src/netif/ppp/demand.c
+Finished building: ../lwip/src/netif/ppp/eap.c
+ 
+Building file: ../lwip/src/netif/ppp/fsm.c
+ 
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/netif/ppp/ipcp.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/fsm.d" -MT"lwip/src/netif/ppp/fsm.o" -c -o "lwip/src/netif/ppp/fsm.o" "../lwip/src/netif/ppp/fsm.c"
+Building file: ../lwip/src/netif/ppp/ipv6cp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/ipcp.d" -MT"lwip/src/netif/ppp/ipcp.o" -c -o "lwip/src/netif/ppp/ipcp.o" "../lwip/src/netif/ppp/ipcp.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/ipv6cp.d" -MT"lwip/src/netif/ppp/ipv6cp.o" -c -o "lwip/src/netif/ppp/ipv6cp.o" "../lwip/src/netif/ppp/ipv6cp.c"
+Finished building: ../lwip/src/netif/ppp/eui64.c
+ 
+Building file: ../lwip/src/netif/ppp/lcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/lcp.d" -MT"lwip/src/netif/ppp/lcp.o" -c -o "lwip/src/netif/ppp/lcp.o" "../lwip/src/netif/ppp/lcp.c"
+Finished building: ../lwip/src/netif/ppp/ipcp.c
+Finished building: ../lwip/src/netif/ppp/fsm.c
+ 
+Building file: ../lwip/src/netif/ppp/lwip_ecp.c
+ 
+Finished building: ../lwip/src/netif/ppp/ipv6cp.c
+Building file: ../lwip/src/netif/ppp/magic.c
+ 
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/magic.d" -MT"lwip/src/netif/ppp/magic.o" -c -o "lwip/src/netif/ppp/magic.o" "../lwip/src/netif/ppp/magic.c"
+Building file: ../lwip/src/netif/ppp/mppe.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/lwip_ecp.d" -MT"lwip/src/netif/ppp/lwip_ecp.o" -c -o "lwip/src/netif/ppp/lwip_ecp.o" "../lwip/src/netif/ppp/lwip_ecp.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/mppe.d" -MT"lwip/src/netif/ppp/mppe.o" -c -o "lwip/src/netif/ppp/mppe.o" "../lwip/src/netif/ppp/mppe.c"
+Finished building: ../lwip/src/netif/ppp/lcp.c
+ 
+Building file: ../lwip/src/netif/ppp/multilink.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/multilink.d" -MT"lwip/src/netif/ppp/multilink.o" -c -o "lwip/src/netif/ppp/multilink.o" "../lwip/src/netif/ppp/multilink.c"
+Finished building: ../lwip/src/netif/ppp/lwip_ecp.c
+Finished building: ../lwip/src/netif/ppp/magic.c
+ 
+ 
+Building file: ../lwip/src/netif/ppp/pppapi.c
+Finished building: ../lwip/src/netif/ppp/mppe.c
+Building file: ../lwip/src/netif/ppp/ppp.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/pppapi.d" -MT"lwip/src/netif/ppp/pppapi.o" -c -o "lwip/src/netif/ppp/pppapi.o" "../lwip/src/netif/ppp/pppapi.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/ppp.d" -MT"lwip/src/netif/ppp/ppp.o" -c -o "lwip/src/netif/ppp/ppp.o" "../lwip/src/netif/ppp/ppp.c"
+ 
+Building file: ../lwip/src/netif/ppp/pppcrypt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/pppcrypt.d" -MT"lwip/src/netif/ppp/pppcrypt.o" -c -o "lwip/src/netif/ppp/pppcrypt.o" "../lwip/src/netif/ppp/pppcrypt.c"
+Finished building: ../lwip/src/netif/ppp/multilink.c
+ 
+Building file: ../lwip/src/netif/ppp/pppoe.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/pppoe.d" -MT"lwip/src/netif/ppp/pppoe.o" -c -o "lwip/src/netif/ppp/pppoe.o" "../lwip/src/netif/ppp/pppoe.c"
+Finished building: ../lwip/src/netif/ppp/pppapi.c
+Finished building: ../lwip/src/netif/ppp/pppcrypt.c
+Finished building: ../lwip/src/netif/ppp/ppp.c
+ 
+ 
+ 
+Building file: ../lwip/src/netif/ppp/pppol2tp.c
+Building file: ../lwip/src/netif/ppp/pppos.c
+Building file: ../lwip/src/netif/ppp/upap.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/pppol2tp.d" -MT"lwip/src/netif/ppp/pppol2tp.o" -c -o "lwip/src/netif/ppp/pppol2tp.o" "../lwip/src/netif/ppp/pppol2tp.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/pppos.d" -MT"lwip/src/netif/ppp/pppos.o" -c -o "lwip/src/netif/ppp/pppos.o" "../lwip/src/netif/ppp/pppos.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/upap.d" -MT"lwip/src/netif/ppp/upap.o" -c -o "lwip/src/netif/ppp/upap.o" "../lwip/src/netif/ppp/upap.c"
+Finished building: ../lwip/src/netif/ppp/pppoe.c
+ 
+Building file: ../lwip/src/netif/ppp/utils.c
+Finished building: ../lwip/src/netif/ppp/pppos.c
+Finished building: ../lwip/src/netif/ppp/upap.c
+Finished building: ../lwip/src/netif/ppp/pppol2tp.c
+ 
+ 
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/netif/ppp/vj.c
+Building file: ../lwip/src/netif/ethernet.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/utils.d" -MT"lwip/src/netif/ppp/utils.o" -c -o "lwip/src/netif/ppp/utils.o" "../lwip/src/netif/ppp/utils.c"
+Building file: ../lwip/src/netif/lowpan6.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ppp/vj.d" -MT"lwip/src/netif/ppp/vj.o" -c -o "lwip/src/netif/ppp/vj.o" "../lwip/src/netif/ppp/vj.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/ethernet.d" -MT"lwip/src/netif/ethernet.o" -c -o "lwip/src/netif/ethernet.o" "../lwip/src/netif/ethernet.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/lowpan6.d" -MT"lwip/src/netif/lowpan6.o" -c -o "lwip/src/netif/lowpan6.o" "../lwip/src/netif/lowpan6.c"
+Finished building: ../lwip/src/netif/ppp/vj.c
+ 
+Finished building: ../lwip/src/netif/lowpan6.c
+Building file: ../lwip/src/netif/slipif.c
+Finished building: ../lwip/src/netif/ppp/utils.c
+Invoking: Cross ARM C Compiler
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/netif/slipif.d" -MT"lwip/src/netif/slipif.o" -c -o "lwip/src/netif/slipif.o" "../lwip/src/netif/slipif.c"
+ 
+Finished building: ../lwip/src/netif/ethernet.c
+Building file: ../lwip/src/core/ipv6/ethip6.c
+Building file: ../lwip/src/core/ipv6/dhcp6.c
+ 
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/core/ipv6/icmp6.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/dhcp6.d" -MT"lwip/src/core/ipv6/dhcp6.o" -c -o "lwip/src/core/ipv6/dhcp6.o" "../lwip/src/core/ipv6/dhcp6.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/ethip6.d" -MT"lwip/src/core/ipv6/ethip6.o" -c -o "lwip/src/core/ipv6/ethip6.o" "../lwip/src/core/ipv6/ethip6.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/icmp6.d" -MT"lwip/src/core/ipv6/icmp6.o" -c -o "lwip/src/core/ipv6/icmp6.o" "../lwip/src/core/ipv6/icmp6.c"
+Finished building: ../lwip/src/netif/slipif.c
+ 
+Finished building: ../lwip/src/core/ipv6/ethip6.c
+Finished building: ../lwip/src/core/ipv6/dhcp6.c
+ 
+ 
+Finished building: ../lwip/src/core/ipv6/icmp6.c
+Building file: ../lwip/src/core/ipv6/inet6.c
+Building file: ../lwip/src/core/ipv6/ip6.c
+Building file: ../lwip/src/core/ipv6/ip6_addr.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/inet6.d" -MT"lwip/src/core/ipv6/inet6.o" -c -o "lwip/src/core/ipv6/inet6.o" "../lwip/src/core/ipv6/inet6.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/ip6.d" -MT"lwip/src/core/ipv6/ip6.o" -c -o "lwip/src/core/ipv6/ip6.o" "../lwip/src/core/ipv6/ip6.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/ip6_addr.d" -MT"lwip/src/core/ipv6/ip6_addr.o" -c -o "lwip/src/core/ipv6/ip6_addr.o" "../lwip/src/core/ipv6/ip6_addr.c"
+Building file: ../lwip/src/core/ipv6/ip6_frag.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/ip6_frag.d" -MT"lwip/src/core/ipv6/ip6_frag.o" -c -o "lwip/src/core/ipv6/ip6_frag.o" "../lwip/src/core/ipv6/ip6_frag.c"
+Finished building: ../lwip/src/core/ipv6/inet6.c
+Finished building: ../lwip/src/core/ipv6/ip6.c
+ 
+ 
+Finished building: ../lwip/src/core/ipv6/ip6_addr.c
+Building file: ../lwip/src/core/ipv6/mld6.c
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/core/ipv6/nd6.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/mld6.d" -MT"lwip/src/core/ipv6/mld6.o" -c -o "lwip/src/core/ipv6/mld6.o" "../lwip/src/core/ipv6/mld6.c"
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/core/ipv4/autoip.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv6/nd6.d" -MT"lwip/src/core/ipv6/nd6.o" -c -o "lwip/src/core/ipv6/nd6.o" "../lwip/src/core/ipv6/nd6.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/autoip.d" -MT"lwip/src/core/ipv4/autoip.o" -c -o "lwip/src/core/ipv4/autoip.o" "../lwip/src/core/ipv4/autoip.c"
+Finished building: ../lwip/src/core/ipv6/ip6_frag.c
+ 
+Building file: ../lwip/src/core/ipv4/dhcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/dhcp.d" -MT"lwip/src/core/ipv4/dhcp.o" -c -o "lwip/src/core/ipv4/dhcp.o" "../lwip/src/core/ipv4/dhcp.c"
+Finished building: ../lwip/src/core/ipv6/mld6.c
+Finished building: ../lwip/src/core/ipv4/autoip.c
+ 
+Finished building: ../lwip/src/core/ipv6/nd6.c
+ 
+Building file: ../lwip/src/core/ipv4/etharp.c
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/core/ipv4/icmp.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/etharp.d" -MT"lwip/src/core/ipv4/etharp.o" -c -o "lwip/src/core/ipv4/etharp.o" "../lwip/src/core/ipv4/etharp.c"
+Building file: ../lwip/src/core/ipv4/igmp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/icmp.d" -MT"lwip/src/core/ipv4/icmp.o" -c -o "lwip/src/core/ipv4/icmp.o" "../lwip/src/core/ipv4/icmp.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/igmp.d" -MT"lwip/src/core/ipv4/igmp.o" -c -o "lwip/src/core/ipv4/igmp.o" "../lwip/src/core/ipv4/igmp.c"
+Finished building: ../lwip/src/core/ipv4/igmp.c
+ 
+Building file: ../lwip/src/core/ipv4/ip4.c
+Finished building: ../lwip/src/core/ipv4/icmp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/ip4.d" -MT"lwip/src/core/ipv4/ip4.o" -c -o "lwip/src/core/ipv4/ip4.o" "../lwip/src/core/ipv4/ip4.c"
+ 
+Building file: ../lwip/src/core/ipv4/ip4_addr.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/ip4_addr.d" -MT"lwip/src/core/ipv4/ip4_addr.o" -c -o "lwip/src/core/ipv4/ip4_addr.o" "../lwip/src/core/ipv4/ip4_addr.c"
+Finished building: ../lwip/src/core/ipv4/etharp.c
+ 
+Building file: ../lwip/src/core/ipv4/ip4_frag.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ipv4/ip4_frag.d" -MT"lwip/src/core/ipv4/ip4_frag.o" -c -o "lwip/src/core/ipv4/ip4_frag.o" "../lwip/src/core/ipv4/ip4_frag.c"
+Finished building: ../lwip/src/core/ipv4/dhcp.c
+ 
+Building file: ../lwip/src/core/def.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/def.d" -MT"lwip/src/core/def.o" -c -o "lwip/src/core/def.o" "../lwip/src/core/def.c"
+Finished building: ../lwip/src/core/ipv4/ip4.c
+ 
+Building file: ../lwip/src/core/dns.c
+Finished building: ../lwip/src/core/ipv4/ip4_addr.c
+Invoking: Cross ARM C Compiler
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/dns.d" -MT"lwip/src/core/dns.o" -c -o "lwip/src/core/dns.o" "../lwip/src/core/dns.c"
+Building file: ../lwip/src/core/inet_chksum.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/inet_chksum.d" -MT"lwip/src/core/inet_chksum.o" -c -o "lwip/src/core/inet_chksum.o" "../lwip/src/core/inet_chksum.c"
+Finished building: ../lwip/src/core/ipv4/ip4_frag.c
+ 
+Building file: ../lwip/src/core/init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/init.d" -MT"lwip/src/core/init.o" -c -o "lwip/src/core/init.o" "../lwip/src/core/init.c"
+Finished building: ../lwip/src/core/def.c
+ 
+Building file: ../lwip/src/core/ip.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/ip.d" -MT"lwip/src/core/ip.o" -c -o "lwip/src/core/ip.o" "../lwip/src/core/ip.c"
+Finished building: ../lwip/src/core/dns.c
+Finished building: ../lwip/src/core/inet_chksum.c
+ 
+ 
+Building file: ../lwip/src/core/mem.c
+Building file: ../lwip/src/core/memp.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/memp.d" -MT"lwip/src/core/memp.o" -c -o "lwip/src/core/memp.o" "../lwip/src/core/memp.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/mem.d" -MT"lwip/src/core/mem.o" -c -o "lwip/src/core/mem.o" "../lwip/src/core/mem.c"
+Finished building: ../lwip/src/core/init.c
+ 
+Building file: ../lwip/src/core/netif.c
+Finished building: ../lwip/src/core/ip.c
+ 
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/netif.d" -MT"lwip/src/core/netif.o" -c -o "lwip/src/core/netif.o" "../lwip/src/core/netif.c"
+Building file: ../lwip/src/core/pbuf.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/pbuf.d" -MT"lwip/src/core/pbuf.o" -c -o "lwip/src/core/pbuf.o" "../lwip/src/core/pbuf.c"
+Finished building: ../lwip/src/core/mem.c
+Finished building: ../lwip/src/core/memp.c
+ 
+Building file: ../lwip/src/core/raw.c
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/src/core/stats.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/raw.d" -MT"lwip/src/core/raw.o" -c -o "lwip/src/core/raw.o" "../lwip/src/core/raw.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/stats.d" -MT"lwip/src/core/stats.o" -c -o "lwip/src/core/stats.o" "../lwip/src/core/stats.c"
+Finished building: ../lwip/src/core/netif.c
+ 
+Building file: ../lwip/src/core/sys.c
+Invoking: Cross ARM C Compiler
+Finished building: ../lwip/src/core/pbuf.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/sys.d" -MT"lwip/src/core/sys.o" -c -o "lwip/src/core/sys.o" "../lwip/src/core/sys.c"
+ 
+Building file: ../lwip/src/core/tcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/tcp.d" -MT"lwip/src/core/tcp.o" -c -o "lwip/src/core/tcp.o" "../lwip/src/core/tcp.c"
+Finished building: ../lwip/src/core/raw.c
+ 
+Building file: ../lwip/src/core/tcp_in.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/tcp_in.d" -MT"lwip/src/core/tcp_in.o" -c -o "lwip/src/core/tcp_in.o" "../lwip/src/core/tcp_in.c"
+Finished building: ../lwip/src/core/stats.c
+ 
+Building file: ../lwip/src/core/tcp_out.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/tcp_out.d" -MT"lwip/src/core/tcp_out.o" -c -o "lwip/src/core/tcp_out.o" "../lwip/src/core/tcp_out.c"
+Finished building: ../lwip/src/core/sys.c
+ 
+Building file: ../lwip/src/core/timeouts.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/timeouts.d" -MT"lwip/src/core/timeouts.o" -c -o "lwip/src/core/timeouts.o" "../lwip/src/core/timeouts.c"
+Finished building: ../lwip/src/core/tcp_in.c
+Finished building: ../lwip/src/core/tcp.c
+ 
+ 
+Building file: ../lwip/src/core/udp.c
+Building file: ../lwip/src/api/api_lib.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/udp.d" -MT"lwip/src/core/udp.o" -c -o "lwip/src/core/udp.o" "../lwip/src/core/udp.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/api_lib.d" -MT"lwip/src/api/api_lib.o" -c -o "lwip/src/api/api_lib.o" "../lwip/src/api/api_lib.c"
+Finished building: ../lwip/src/core/timeouts.c
+ 
+Building file: ../lwip/src/api/api_msg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/api_msg.d" -MT"lwip/src/api/api_msg.o" -c -o "lwip/src/api/api_msg.o" "../lwip/src/api/api_msg.c"
+Finished building: ../lwip/src/core/tcp_out.c
+ 
+Building file: ../lwip/src/api/err.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/err.d" -MT"lwip/src/api/err.o" -c -o "lwip/src/api/err.o" "../lwip/src/api/err.c"
+Finished building: ../lwip/src/core/udp.c
+Finished building: ../lwip/src/api/api_lib.c
+ 
+ 
+Building file: ../lwip/src/api/netbuf.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/netbuf.d" -MT"lwip/src/api/netbuf.o" -c -o "lwip/src/api/netbuf.o" "../lwip/src/api/netbuf.c"
+Building file: ../lwip/src/api/netdb.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/netdb.d" -MT"lwip/src/api/netdb.o" -c -o "lwip/src/api/netdb.o" "../lwip/src/api/netdb.c"
+Finished building: ../lwip/src/api/err.c
+ 
+Building file: ../lwip/src/api/netifapi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/netifapi.d" -MT"lwip/src/api/netifapi.o" -c -o "lwip/src/api/netifapi.o" "../lwip/src/api/netifapi.c"
+Finished building: ../lwip/src/api/api_msg.c
+Finished building: ../lwip/src/api/netdb.c
+Finished building: ../lwip/src/api/netbuf.c
+ 
+ 
+Building file: ../lwip/src/api/sockets.c
+ 
+Building file: ../lwip/src/api/tcpip.c
+Building file: ../lwip/port/ethernetif.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/tcpip.d" -MT"lwip/src/api/tcpip.o" -c -o "lwip/src/api/tcpip.o" "../lwip/src/api/tcpip.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/sockets.d" -MT"lwip/src/api/sockets.o" -c -o "lwip/src/api/sockets.o" "../lwip/src/api/sockets.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/port/ethernetif.d" -MT"lwip/port/ethernetif.o" -c -o "lwip/port/ethernetif.o" "../lwip/port/ethernetif.c"
+Finished building: ../lwip/src/api/netifapi.c
+ 
+Building file: ../lwip/port/sys_arch.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/port/sys_arch.d" -MT"lwip/port/sys_arch.o" -c -o "lwip/port/sys_arch.o" "../lwip/port/sys_arch.c"
+Finished building: ../lwip/src/api/tcpip.c
+ 
+Finished building: ../lwip/port/ethernetif.c
+ 
+Building file: ../lwip/contrib/apps/tcpecho/tcpecho.c
+Building file: ../freertos/Source/portable/MemMang/heap_3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/contrib/apps/tcpecho/tcpecho.d" -MT"lwip/contrib/apps/tcpecho/tcpecho.o" -c -o "lwip/contrib/apps/tcpecho/tcpecho.o" "../lwip/contrib/apps/tcpecho/tcpecho.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/portable/MemMang/heap_3.d" -MT"freertos/Source/portable/MemMang/heap_3.o" -c -o "freertos/Source/portable/MemMang/heap_3.o" "../freertos/Source/portable/MemMang/heap_3.c"
+Finished building: ../lwip/port/sys_arch.c
+Finished building: ../freertos/Source/portable/MemMang/heap_3.c
+ 
+ 
+Finished building: ../lwip/src/api/sockets.c
+ 
+Building file: ../freertos/Source/portable/GCC/ARM_CM4F/port.c
+Building file: ../freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.c
+Building file: ../freertos/Source/croutine.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/portable/GCC/ARM_CM4F/port.d" -MT"freertos/Source/portable/GCC/ARM_CM4F/port.o" -c -o "freertos/Source/portable/GCC/ARM_CM4F/port.o" "../freertos/Source/portable/GCC/ARM_CM4F/port.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.d" -MT"freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o" -c -o "freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o" "../freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/croutine.d" -MT"freertos/Source/croutine.o" -c -o "freertos/Source/croutine.o" "../freertos/Source/croutine.c"
+Finished building: ../lwip/contrib/apps/tcpecho/tcpecho.c
+ 
+Building file: ../freertos/Source/event_groups.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/event_groups.d" -MT"freertos/Source/event_groups.o" -c -o "freertos/Source/event_groups.o" "../freertos/Source/event_groups.c"
+Finished building: ../freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.c
+ 
+Finished building: ../freertos/Source/portable/GCC/ARM_CM4F/port.c
+Finished building: ../freertos/Source/croutine.c
+Building file: ../freertos/Source/list.c
+ 
+ 
+Invoking: Cross ARM C Compiler
+Building file: ../freertos/Source/queue.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/list.d" -MT"freertos/Source/list.o" -c -o "freertos/Source/list.o" "../freertos/Source/list.c"
+Building file: ../freertos/Source/tasks.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/queue.d" -MT"freertos/Source/queue.o" -c -o "freertos/Source/queue.o" "../freertos/Source/queue.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/tasks.d" -MT"freertos/Source/tasks.o" -c -o "freertos/Source/tasks.o" "../freertos/Source/tasks.c"
+Finished building: ../freertos/Source/event_groups.c
+ 
+Building file: ../freertos/Source/timers.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"freertos/Source/timers.d" -MT"freertos/Source/timers.o" -c -o "freertos/Source/timers.o" "../freertos/Source/timers.c"
+Finished building: ../freertos/Source/list.c
+ 
+Building file: ../drivers/fsl_adc16.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_adc16.d" -MT"drivers/fsl_adc16.o" -c -o "drivers/fsl_adc16.o" "../drivers/fsl_adc16.c"
+Finished building: ../freertos/Source/queue.c
+ 
+Building file: ../drivers/fsl_clock.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_clock.d" -MT"drivers/fsl_clock.o" -c -o "drivers/fsl_clock.o" "../drivers/fsl_clock.c"
+Finished building: ../freertos/Source/timers.c
+ 
+Finished building: ../freertos/Source/tasks.c
+Building file: ../drivers/fsl_cmp.c
+ 
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_cmp.d" -MT"drivers/fsl_cmp.o" -c -o "drivers/fsl_cmp.o" "../drivers/fsl_cmp.c"
+Building file: ../drivers/fsl_cmt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_cmt.d" -MT"drivers/fsl_cmt.o" -c -o "drivers/fsl_cmt.o" "../drivers/fsl_cmt.c"
+Finished building: ../drivers/fsl_adc16.c
+ 
+Building file: ../drivers/fsl_common.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_common.d" -MT"drivers/fsl_common.o" -c -o "drivers/fsl_common.o" "../drivers/fsl_common.c"
+Finished building: ../drivers/fsl_cmp.c
+ 
+Finished building: ../drivers/fsl_cmt.c
+Building file: ../drivers/fsl_crc.c
+ 
+Building file: ../drivers/fsl_dac.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_crc.d" -MT"drivers/fsl_crc.o" -c -o "drivers/fsl_crc.o" "../drivers/fsl_crc.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_dac.d" -MT"drivers/fsl_dac.o" -c -o "drivers/fsl_dac.o" "../drivers/fsl_dac.c"
+Finished building: ../drivers/fsl_clock.c
+ 
+Building file: ../drivers/fsl_dmamux.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_dmamux.d" -MT"drivers/fsl_dmamux.o" -c -o "drivers/fsl_dmamux.o" "../drivers/fsl_dmamux.c"
+Finished building: ../drivers/fsl_common.c
+ 
+Building file: ../drivers/fsl_dspi.c
+Finished building: ../drivers/fsl_crc.c
+ 
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_dspi.d" -MT"drivers/fsl_dspi.o" -c -o "drivers/fsl_dspi.o" "../drivers/fsl_dspi.c"
+Building file: ../drivers/fsl_dspi_edma.c
+Finished building: ../drivers/fsl_dac.c
+Invoking: Cross ARM C Compiler
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_dspi_edma.d" -MT"drivers/fsl_dspi_edma.o" -c -o "drivers/fsl_dspi_edma.o" "../drivers/fsl_dspi_edma.c"
+Building file: ../drivers/fsl_dspi_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_dspi_freertos.d" -MT"drivers/fsl_dspi_freertos.o" -c -o "drivers/fsl_dspi_freertos.o" "../drivers/fsl_dspi_freertos.c"
+Finished building: ../drivers/fsl_dmamux.c
+ 
+Building file: ../drivers/fsl_edma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_edma.d" -MT"drivers/fsl_edma.o" -c -o "drivers/fsl_edma.o" "../drivers/fsl_edma.c"
+Finished building: ../drivers/fsl_dspi_freertos.c
+ 
+Building file: ../drivers/fsl_enet.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_enet.d" -MT"drivers/fsl_enet.o" -c -o "drivers/fsl_enet.o" "../drivers/fsl_enet.c"
+Finished building: ../drivers/fsl_dspi_edma.c
+ 
+Finished building: ../drivers/fsl_dspi.c
+Building file: ../drivers/fsl_ewm.c
+ 
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_ewm.d" -MT"drivers/fsl_ewm.o" -c -o "drivers/fsl_ewm.o" "../drivers/fsl_ewm.c"
+Building file: ../drivers/fsl_flash.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_flash.d" -MT"drivers/fsl_flash.o" -c -o "drivers/fsl_flash.o" "../drivers/fsl_flash.c"
+Finished building: ../drivers/fsl_edma.c
+ 
+Building file: ../drivers/fsl_flexbus.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_flexbus.d" -MT"drivers/fsl_flexbus.o" -c -o "drivers/fsl_flexbus.o" "../drivers/fsl_flexbus.c"
+Finished building: ../drivers/fsl_ewm.c
+ 
+Building file: ../drivers/fsl_flexcan.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_flexcan.d" -MT"drivers/fsl_flexcan.o" -c -o "drivers/fsl_flexcan.o" "../drivers/fsl_flexcan.c"
+Finished building: ../drivers/fsl_enet.c
+ 
+Building file: ../drivers/fsl_ftm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_ftm.d" -MT"drivers/fsl_ftm.o" -c -o "drivers/fsl_ftm.o" "../drivers/fsl_ftm.c"
+Finished building: ../drivers/fsl_flexbus.c
+Finished building: ../drivers/fsl_flash.c
+ 
+ 
+Building file: ../drivers/fsl_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_gpio.d" -MT"drivers/fsl_gpio.o" -c -o "drivers/fsl_gpio.o" "../drivers/fsl_gpio.c"
+Building file: ../drivers/fsl_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_i2c.d" -MT"drivers/fsl_i2c.o" -c -o "drivers/fsl_i2c.o" "../drivers/fsl_i2c.c"
+Finished building: ../drivers/fsl_flexcan.c
+Finished building: ../drivers/fsl_gpio.c
+ 
+ 
+Building file: ../drivers/fsl_i2c_edma.c
+Building file: ../drivers/fsl_i2c_freertos.c
+Invoking: Cross ARM C Compiler
+Finished building: ../drivers/fsl_ftm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_i2c_edma.d" -MT"drivers/fsl_i2c_edma.o" -c -o "drivers/fsl_i2c_edma.o" "../drivers/fsl_i2c_edma.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_i2c_freertos.d" -MT"drivers/fsl_i2c_freertos.o" -c -o "drivers/fsl_i2c_freertos.o" "../drivers/fsl_i2c_freertos.c"
+ 
+Building file: ../drivers/fsl_llwu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_llwu.d" -MT"drivers/fsl_llwu.o" -c -o "drivers/fsl_llwu.o" "../drivers/fsl_llwu.c"
+Finished building: ../drivers/fsl_i2c.c
+Finished building: ../drivers/fsl_i2c_freertos.c
+ 
+ 
+Building file: ../drivers/fsl_lptmr.c
+Building file: ../drivers/fsl_mpu.c
+Invoking: Cross ARM C Compiler
+Finished building: ../drivers/fsl_i2c_edma.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_lptmr.d" -MT"drivers/fsl_lptmr.o" -c -o "drivers/fsl_lptmr.o" "../drivers/fsl_lptmr.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_mpu.d" -MT"drivers/fsl_mpu.o" -c -o "drivers/fsl_mpu.o" "../drivers/fsl_mpu.c"
+ 
+Building file: ../drivers/fsl_pdb.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_pdb.d" -MT"drivers/fsl_pdb.o" -c -o "drivers/fsl_pdb.o" "../drivers/fsl_pdb.c"
+Finished building: ../drivers/fsl_llwu.c
+ 
+Building file: ../drivers/fsl_pit.c
+Invoking: Cross ARM C Compiler
+Finished building: ../drivers/fsl_lptmr.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_pit.d" -MT"drivers/fsl_pit.o" -c -o "drivers/fsl_pit.o" "../drivers/fsl_pit.c"
+ 
+Building file: ../drivers/fsl_pmc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_pmc.d" -MT"drivers/fsl_pmc.o" -c -o "drivers/fsl_pmc.o" "../drivers/fsl_pmc.c"
+Finished building: ../drivers/fsl_mpu.c
+Finished building: ../drivers/fsl_pdb.c
+ 
+ 
+Building file: ../drivers/fsl_rcm.c
+Building file: ../drivers/fsl_rnga.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_rnga.d" -MT"drivers/fsl_rnga.o" -c -o "drivers/fsl_rnga.o" "../drivers/fsl_rnga.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_rcm.d" -MT"drivers/fsl_rcm.o" -c -o "drivers/fsl_rcm.o" "../drivers/fsl_rcm.c"
+Finished building: ../drivers/fsl_pit.c
+ 
+Building file: ../drivers/fsl_rtc.c
+Invoking: Cross ARM C Compiler
+Finished building: ../drivers/fsl_pmc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_rtc.d" -MT"drivers/fsl_rtc.o" -c -o "drivers/fsl_rtc.o" "../drivers/fsl_rtc.c"
+ 
+Building file: ../drivers/fsl_sai.c
+Finished building: ../drivers/fsl_rcm.c
+Invoking: Cross ARM C Compiler
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_sai.d" -MT"drivers/fsl_sai.o" -c -o "drivers/fsl_sai.o" "../drivers/fsl_sai.c"
+Building file: ../drivers/fsl_sai_edma.c
+Finished building: ../drivers/fsl_rnga.c
+ 
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_sai_edma.d" -MT"drivers/fsl_sai_edma.o" -c -o "drivers/fsl_sai_edma.o" "../drivers/fsl_sai_edma.c"
+Building file: ../drivers/fsl_sdhc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_sdhc.d" -MT"drivers/fsl_sdhc.o" -c -o "drivers/fsl_sdhc.o" "../drivers/fsl_sdhc.c"
+Finished building: ../drivers/fsl_rtc.c
+ 
+Building file: ../drivers/fsl_sim.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_sim.d" -MT"drivers/fsl_sim.o" -c -o "drivers/fsl_sim.o" "../drivers/fsl_sim.c"
+Finished building: ../drivers/fsl_sai_edma.c
+ 
+Building file: ../drivers/fsl_smc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_smc.d" -MT"drivers/fsl_smc.o" -c -o "drivers/fsl_smc.o" "../drivers/fsl_smc.c"
+Finished building: ../drivers/fsl_sai.c
+ 
+Building file: ../drivers/fsl_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_uart.d" -MT"drivers/fsl_uart.o" -c -o "drivers/fsl_uart.o" "../drivers/fsl_uart.c"
+Finished building: ../drivers/fsl_sdhc.c
+ 
+Building file: ../drivers/fsl_uart_edma.c
+Invoking: Cross ARM C Compiler
+Finished building: ../drivers/fsl_sim.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_uart_edma.d" -MT"drivers/fsl_uart_edma.o" -c -o "drivers/fsl_uart_edma.o" "../drivers/fsl_uart_edma.c"
+ 
+Building file: ../drivers/fsl_uart_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_uart_freertos.d" -MT"drivers/fsl_uart_freertos.o" -c -o "drivers/fsl_uart_freertos.o" "../drivers/fsl_uart_freertos.c"
+Finished building: ../drivers/fsl_smc.c
+ 
+Building file: ../drivers/fsl_vref.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_vref.d" -MT"drivers/fsl_vref.o" -c -o "drivers/fsl_vref.o" "../drivers/fsl_vref.c"
+Finished building: ../drivers/fsl_uart_edma.c
+Finished building: ../drivers/fsl_uart.c
+ 
+ 
+Building file: ../devices/gcc/startup_MK64F12.S
+Finished building: ../drivers/fsl_uart_freertos.c
+Building file: ../drivers/fsl_wdog.c
+Invoking: Cross ARM C Compiler
+ 
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -x assembler-with-cpp -DDEBUG -D__STARTUP_CLEAR_BSS -I../.. -mapcs -MMD -MP -MF"devices/gcc/startup_MK64F12.d" -MT"devices/gcc/startup_MK64F12.o" -c -o "devices/gcc/startup_MK64F12.o" "../devices/gcc/startup_MK64F12.S"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"drivers/fsl_wdog.d" -MT"drivers/fsl_wdog.o" -c -o "drivers/fsl_wdog.o" "../drivers/fsl_wdog.c"
+Building file: ../devices/system_MK64F12.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"devices/system_MK64F12.d" -MT"devices/system_MK64F12.o" -c -o "devices/system_MK64F12.o" "../devices/system_MK64F12.c"
+Finished building: ../devices/gcc/startup_MK64F12.S
+Finished building: ../drivers/fsl_vref.c
+ 
+ 
+Finished building: ../devices/system_MK64F12.c
+ 
+Finished building: ../drivers/fsl_wdog.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+20:09:03 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:15:05 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:15:38 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:15:46 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:16:03 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:46:33 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:47:50 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+19:16:38 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+20:30:05 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+19:51:31 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+11:29:24 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+11:29:38 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+11:30:58 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+11:31:04 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+12:23:24 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../lwip/contrib/apps/tcpecho/tcpecho.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/contrib/apps/tcpecho/tcpecho.d" -MT"lwip/contrib/apps/tcpecho/tcpecho.o" -c -o "lwip/contrib/apps/tcpecho/tcpecho.o" "../lwip/contrib/apps/tcpecho/tcpecho.c"
+Finished building: ../lwip/contrib/apps/tcpecho/tcpecho.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+12:23:40 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+12:25:35 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../lwip/contrib/apps/tcpecho/tcpecho.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/contrib/apps/tcpecho/tcpecho.d" -MT"lwip/contrib/apps/tcpecho/tcpecho.o" -c -o "lwip/contrib/apps/tcpecho/tcpecho.o" "../lwip/contrib/apps/tcpecho/tcpecho.c"
+Finished building: ../lwip/contrib/apps/tcpecho/tcpecho.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+12:25:59 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:55:49 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../lwip/src/core/init.c
+Building file: ../lwip/src/core/memp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/init.d" -MT"lwip/src/core/init.o" -c -o "lwip/src/core/init.o" "../lwip/src/core/init.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/core/memp.d" -MT"lwip/src/core/memp.o" -c -o "lwip/src/core/memp.o" "../lwip/src/core/memp.c"
+Building file: ../lwip/src/api/api_lib.c
+Building file: ../lwip/src/api/api_msg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/api_lib.d" -MT"lwip/src/api/api_lib.o" -c -o "lwip/src/api/api_lib.o" "../lwip/src/api/api_lib.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/api_msg.d" -MT"lwip/src/api/api_msg.o" -c -o "lwip/src/api/api_msg.o" "../lwip/src/api/api_msg.c"
+Finished building: ../lwip/src/api/api_lib.c
+ 
+Building file: ../lwip/src/api/sockets.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/src/api/sockets.d" -MT"lwip/src/api/sockets.o" -c -o "lwip/src/api/sockets.o" "../lwip/src/api/sockets.c"
+Finished building: ../lwip/src/core/init.c
+ 
+Building file: ../lwip/contrib/apps/tcpecho/tcpecho.c
+Finished building: ../lwip/src/core/memp.c
+Finished building: ../lwip/src/api/api_msg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/contrib/apps/tcpecho/tcpecho.d" -MT"lwip/contrib/apps/tcpecho/tcpecho.o" -c -o "lwip/contrib/apps/tcpecho/tcpecho.o" "../lwip/contrib/apps/tcpecho/tcpecho.c"
+ 
+ 
+Finished building: ../lwip/contrib/apps/tcpecho/tcpecho.c
+ 
+Finished building: ../lwip/src/api/sockets.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+18:55:59 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:27:49 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:30:22 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:30:29 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:31:37 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:31:42 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:39:25 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:39:30 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:46:32 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:56:48 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:58:01 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:58:06 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+14:06:18 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+14:06:22 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+14:13:13 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+14:13:17 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+14:39:32 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:53:26 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:53:37 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+19:18:36 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+19:22:38 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+19:22:43 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:44:02 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:45:06 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:45:11 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:47:00 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:47:06 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:51:46 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+18:51:52 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:53:00 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+18:53:05 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+18:57:57 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+18:58:05 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+13:58:51 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+Building file: ../lwip/contrib/apps/tcpecho/tcpecho.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"lwip/contrib/apps/tcpecho/tcpecho.d" -MT"lwip/contrib/apps/tcpecho/tcpecho.o" -c -o "lwip/contrib/apps/tcpecho/tcpecho.o" "../lwip/contrib/apps/tcpecho/tcpecho.c"
+Finished building: ../lwip/contrib/apps/tcpecho/tcpecho.c
+ 
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+14:00:41 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+14:04:57 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+Building file: ../sources/lwip_tcpecho_freertos.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -DDEBUG -DCPU_MK64FN1M0VMD12 -DUSE_RTOS=1 -DPRINTF_ADVANCED_ENABLE=1 -DFSL_RTOS_FREE_RTOS -DFRDM_K64F -DFREEDOM -I../freertos/Source/portable/GCC/ARM_CM4F -I../lwip/src/include -I../CMSIS/Include -I../lwip/port/arch -I../freertos/Source/include -I../sources -I../devices -I../drivers -I../lwip/port -I../utilities -I../devices/gcc -I../freertos/Source -I../lwip/contrib/apps -std=gnu99 -mapcs -MMD -MP -MF"sources/lwip_tcpecho_freertos.d" -MT"sources/lwip_tcpecho_freertos.o" -c -o "sources/lwip_tcpecho_freertos.o" "../sources/lwip_tcpecho_freertos.c"
+Finished building: ../sources/lwip_tcpecho_freertos.c
+ 
+Building target: lwip_tcpecho_freertos_frdmk64f.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -ffreestanding -fno-builtin -Wall  -g -T ../settings/MK64FN1M0xxx12_flash.ld -Xlinker --gc-sections -Wl,-Map,"lwip_tcpecho_freertos_frdmk64f.map" --specs=nano.specs -mapcs  -Xlinker -static  -Xlinker -z  -Xlinker muldefs -o "lwip_tcpecho_freertos_frdmk64f.elf" -Xlinker --start-group  ./utilities/fsl_debug_console.o ./utilities/fsl_sbrk.o  ./sources/board.o ./sources/clock_config.o ./sources/fsl_phy.o ./sources/lwip_tcpecho_freertos.o ./sources/pin_mux.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/ccp.o ./lwip/src/netif/ppp/chap-md5.o ./lwip/src/netif/ppp/chap-new.o ./lwip/src/netif/ppp/chap_ms.o ./lwip/src/netif/ppp/demand.o ./lwip/src/netif/ppp/eap.o ./lwip/src/netif/ppp/eui64.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/ipv6cp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/lwip_ecp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/mppe.o ./lwip/src/netif/ppp/multilink.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/pppapi.o ./lwip/src/netif/ppp/pppcrypt.o ./lwip/src/netif/ppp/pppoe.o ./lwip/src/netif/ppp/pppol2tp.o ./lwip/src/netif/ppp/pppos.o ./lwip/src/netif/ppp/upap.o ./lwip/src/netif/ppp/utils.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/ethernet.o ./lwip/src/netif/lowpan6.o ./lwip/src/netif/slipif.o  ./lwip/src/core/ipv6/dhcp6.o ./lwip/src/core/ipv6/ethip6.o ./lwip/src/core/ipv6/icmp6.o ./lwip/src/core/ipv6/inet6.o ./lwip/src/core/ipv6/ip6.o ./lwip/src/core/ipv6/ip6_addr.o ./lwip/src/core/ipv6/ip6_frag.o ./lwip/src/core/ipv6/mld6.o ./lwip/src/core/ipv6/nd6.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/dhcp.o ./lwip/src/core/ipv4/etharp.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/ip4.o ./lwip/src/core/ipv4/ip4_addr.o ./lwip/src/core/ipv4/ip4_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dns.o ./lwip/src/core/inet_chksum.o ./lwip/src/core/init.o ./lwip/src/core/ip.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/timeouts.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/contrib/apps/tcpecho/tcpecho.o  ./freertos/Source/portable/MemMang/heap_3.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./devices/gcc/startup_MK64F12.o  ./devices/system_MK64F12.o   -lm -lg -lgcc -lnosys -Xlinker --end-group
+Finished building target: lwip_tcpecho_freertos_frdmk64f.elf
+ 
+14:05:04 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+17:43:38 **** Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+17:44:35 **** Incremental Build of configuration debug for project lwip_tcpecho_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.

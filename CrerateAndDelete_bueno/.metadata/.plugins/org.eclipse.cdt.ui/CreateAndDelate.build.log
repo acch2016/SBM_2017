@@ -1,0 +1,11 @@
+20:00:22 **** Incremental Build of configuration Debug for project CreateAndDelate ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "CreateAndDelate.elf"
+   text	   data	    bss	    dec	    hex	filename
+  23764	    124	  13196	  37084	   90dc	CreateAndDelate.elf
+Finished building: CreateAndDelate.siz
+ 
+
+20:00:22 Build Finished (took 530ms)
+

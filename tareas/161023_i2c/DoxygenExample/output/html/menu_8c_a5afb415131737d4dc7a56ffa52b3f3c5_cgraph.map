@@ -1,0 +1,8 @@
+<map id="error" name="error">
+<area shape="rect" id="node2" href="$_u_a_r_t_8c.html#af95ee594ce5f1619abbe4f2393b1903e" title="It sends a string character through the serial port. " alt="" coords="125,5,240,32"/>
+<area shape="rect" id="node5" href="$_u_a_r_t_8c.html#a703057d4f928499638874473035502d0" title="Read the status flag that indicates if there is a new data in mailbox. " alt="" coords="117,56,248,83"/>
+<area shape="rect" id="node6" href="$_u_a_r_t_8c.html#a22122abf11b3f086d27feb7dde4094a5" title="Clear the status flag that indicates if there is a new data in mailbox. " alt="" coords="102,107,263,133"/>
+<area shape="rect" id="node7" href="$_u_a_r_t_8c.html#ac1c3e068363b8c659e70109d47c1db15" title="Reads the content of the mailbox. " alt="" coords="101,157,264,184"/>
+<area shape="rect" id="node3" href="$_u_a_r_t_8c.html#ae69fe2846b6410c22876356a9b3f0083" title="It sends one character through the serial port. This function should include the next sentence: while..." alt="" coords="312,5,420,32"/>
+<area shape="rect" id="node4" href="$_u_a_r_t_8c.html#aaedfd7d062f22ca770958fee47be83b6" title="UARTx_S1" alt="" coords="468,5,555,32"/>
+</map>

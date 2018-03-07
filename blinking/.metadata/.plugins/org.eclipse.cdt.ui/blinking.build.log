@@ -1,0 +1,11 @@
+11:58:35 **** Incremental Build of configuration Debug for project blinking ****
+make -j1 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "blinking.elf"
+   text	   data	    bss	    dec	    hex	filename
+  24408	    136	  13184	  37728	   9360	blinking.elf
+Finished building: blinking.siz
+ 
+
+11:58:36 Build Finished (took 577ms)
+

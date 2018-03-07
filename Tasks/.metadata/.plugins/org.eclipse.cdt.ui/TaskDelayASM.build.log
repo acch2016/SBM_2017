@@ -1,0 +1,11 @@
+23:56:05 **** Incremental Build of configuration Debug for project TaskDelayASM ****
+make -j8 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "TaskDelayASM.elf"
+   text	   data	    bss	    dec	    hex	filename
+  26548	    132	  13188	  39868	   9bbc	TaskDelayASM.elf
+Finished building: TaskDelayASM.siz
+ 
+
+23:56:06 Build Finished (took 684ms)
+

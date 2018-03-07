@@ -1,0 +1,6 @@
+18:02:17 **** Incremental Build of configuration debug for project i2c_read_accel_value_transfer_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+
+18:02:18 Build Finished (took 234ms)
+

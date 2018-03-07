@@ -1,0 +1,22 @@
+<map id="readDate_State" name="readDate_State">
+<area shape="rect" id="node2" href="$_u_a_r_t_8c.html#af95ee594ce5f1619abbe4f2393b1903e" title="It sends a string character through the serial port. " alt="" coords="181,142,296,169"/>
+<area shape="rect" id="node5" href="$_r_t_c_8c.html#aa76b49f8571738120a08a7f3d564d065" title="entrega la fecha en un string " alt="" coords="165,218,312,245"/>
+<area shape="rect" id="node3" href="$_u_a_r_t_8c.html#ae69fe2846b6410c22876356a9b3f0083" title="It sends one character through the serial port. This function should include the next sentence: while..." alt="" coords="366,117,474,143"/>
+<area shape="rect" id="node4" href="$_u_a_r_t_8c.html#aaedfd7d062f22ca770958fee47be83b6" title="UARTx_S1" alt="" coords="538,117,625,143"/>
+<area shape="rect" id="node6" href="$_r_t_c_8c.html#aba4f818e4a19cef08b3e4aa9cdfe38a5" title="obtiene el dia leyendo del RTC por I2C " alt="" coords="369,319,471,346"/>
+<area shape="rect" id="node19" href="$_r_t_c_8c.html#abdbc7834418dcce86aa455601fd96d9b" title="obtiene el mes leyendo del RTC por I2C " alt="" coords="363,167,477,194"/>
+<area shape="rect" id="node20" href="$_r_t_c_8c.html#aa2db0ab0906931785bca0a1cd841c550" title="obtiene el año leyendo del RTC por I2C " alt="" coords="367,218,473,245"/>
+<area shape="rect" id="node21" href="$_i2_c_8c.html#a177e862f34ce0dab4d55659013ec012b" title="getModule_State" alt="" coords="360,269,480,295"/>
+<area shape="rect" id="node7" href="$_r_t_c_8c.html#a9a98cbc7a571a7ac2a3a5266a80ec235" title="leer del RTC " alt="" coords="528,218,635,245"/>
+<area shape="rect" id="node8" href="$_i2_c_8c.html#a0f3ef5ef6878c9337e4bd8341628e42e" title="It selects between transmitter mode or receiver mode. " alt="" coords="875,41,999,67"/>
+<area shape="rect" id="node9" href="$_i2_c_8c.html#a09d9820de1e99617f206ef60a9a9d2e8" title="Generates the start signal. When MST bit is changed from 0 to 1, a START signal is generated on the b..." alt="" coords="709,41,783,67"/>
+<area shape="rect" id="node11" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="719,142,773,169"/>
+<area shape="rect" id="node12" href="$_i2_c_8c.html#a9b27c7aa55f8a11a274dd36b6f8a6d2f" title="It writes the data to be transmitted into the transmission buffer. When you want to write a value int..." alt="" coords="691,193,801,219"/>
+<area shape="rect" id="node13" href="$_i2_c_8c.html#a05143bfcf3eeb04ec1dfc7e4ab952689" title="Indicates the status of the bus regardless of slave or master mode. Internally checks the busy bit in..." alt="" coords="711,243,781,270"/>
+<area shape="rect" id="node14" href="$_i2_c_8c.html#aa5a3b846186cda9225be84e16af84356" title="Indicates if the acknowledge was received. " alt="" coords="696,294,796,321"/>
+<area shape="rect" id="node15" href="$_i2_c_8c.html#a577158ebfa27fcb673a5727e95d2d853" title="It generates a repeated start that is needed when master reads data. " alt="" coords="683,345,809,371"/>
+<area shape="rect" id="node16" href="$_i2_c_8c.html#aae489f3896588f59173688541155aa32" title="It generates the Not ACKnowledge that is needed when the master reads data. " alt="" coords="704,395,788,422"/>
+<area shape="rect" id="node17" href="$_i2_c_8c.html#a689c3512503f9420b3d4fcd32ad6585f" title="It reads data from the receiving buffer. " alt="" coords="693,446,799,473"/>
+<area shape="rect" id="node18" href="$_i2_c_8c.html#a0635b74679cdb09c91ef36aa4181a911" title="Generates the stop signal. When this bit changes from 1 to 0, a STOP signal is generated and the mode..." alt="" coords="709,91,783,118"/>
+<area shape="rect" id="node10" href="$_i2_c_8c.html#a2371441eff8976056f8ffbe086176783" title="It selects between master or slave mode. " alt="" coords="857,91,1017,118"/>
+</map>

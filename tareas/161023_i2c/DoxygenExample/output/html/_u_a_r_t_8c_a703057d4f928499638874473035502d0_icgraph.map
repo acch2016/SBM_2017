@@ -1,0 +1,11 @@
+<map id="UARTx_statusFlag" name="UARTx_statusFlag">
+<area shape="rect" id="node2" href="$menu_8h.html#a504975bba09dfde91a2c9ee6d2370c07" title="menu principal de la terminales que utilizan UART " alt="" coords="205,5,339,32"/>
+<area shape="rect" id="node3" href="$menu_8h.html#a17967837d6d07246adb5fee041adadb3" title="función / estado en el cual se puede leer la memoria al ingresar el valor de la dirreccion a leer ..." alt="" coords="207,56,337,83"/>
+<area shape="rect" id="node4" href="$menu_8h.html#a958aa1815ff4ad7444defcc83b9a3aed" title="función / estado en el cual se puede escribir en la memoria al ingresar el valor de la dirreccion a es..." alt="" coords="205,107,339,133"/>
+<area shape="rect" id="node5" href="$menu_8h.html#ab2e48e2d5cd8873d3eed9464df6e23c9" title="función / estado en el cual se configura la hora " alt="" coords="219,157,325,184"/>
+<area shape="rect" id="node6" href="$menu_8h.html#a1d0928b273269905fd0b0c4f6b8194bb" title="función / estado en el cual se configura la fecha " alt="" coords="219,208,325,235"/>
+<area shape="rect" id="node7" href="$menu_8h.html#a3b9c9d000570ddf92d4469305dd3e5d6" title="función / estado en el cual se configura el formato de hora " alt="" coords="211,259,333,285"/>
+<area shape="rect" id="node8" href="$menu_8h.html#a06beb2b50e2f8ade8dcf90dfdbe2aacf" title="función / estado en el cual se despliega la opcion de usar terminal 2 " alt="" coords="184,309,360,336"/>
+<area shape="rect" id="node9" href="$menu_8h.html#a96c2b25986341e028ecce36eb67348a9" title="función / estado en el cual se puede hacer el echo " alt="" coords="215,360,329,387"/>
+<area shape="rect" id="node10" href="$menu_8h.html#a5afb415131737d4dc7a56ffa52b3f3c5" title="función / estado para advertir que la mísma función esta en uso " alt="" coords="248,411,296,437"/>
+</map>

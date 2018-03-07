@@ -1,0 +1,7 @@
+<map id="I2C_init" name="I2C_init">
+<area shape="rect" id="node2" href="$_i2_c_8c.html#a814e6688339fc695fcc3655878389ff6" title="I2C_pinConfig" alt="" coords="131,31,233,57"/>
+<area shape="rect" id="node5" href="$_i2_c_8c.html#a26b928e0c820261eb17669d2362cd4a5" title="I2C_clockChannel" alt="" coords="119,81,245,108"/>
+<area shape="rect" id="node6" href="$_i2_c_8c.html#a664cab50fe0f1cd43caa90cd60b38ac3" title="I2C_BaudRate" alt="" coords="129,132,235,159"/>
+<area shape="rect" id="node3" href="$_g_p_i_o_8c.html#a621b0dc3536c64501a7a6c560b667355" title="This function enables the GPIO clock by configuring the corresponding bit and register in the System ..." alt="" coords="311,5,442,32"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#a61ab453960483e05a0e7a10ab63e6f22" title="This function configure different characteristics in an specific GPIO: pullup or pulldown resistor..." alt="" coords="293,56,460,83"/>
+</map>

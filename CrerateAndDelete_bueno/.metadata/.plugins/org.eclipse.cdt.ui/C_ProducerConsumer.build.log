@@ -1,0 +1,11 @@
+13:06:03 **** Incremental Build of configuration Debug for project C_ProducerConsumer ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "C_ProducerConsumer.elf"
+   text	   data	    bss	    dec	    hex	filename
+  23868	    124	  13196	  37188	   9144	C_ProducerConsumer.elf
+Finished building: C_ProducerConsumer.siz
+ 
+
+13:06:03 Build Finished (took 581ms)
+

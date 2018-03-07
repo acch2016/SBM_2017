@@ -1,0 +1,14 @@
+<map id="UART_putChar" name="UART_putChar">
+<area shape="rect" id="node2" href="$menu_8h.html#a504975bba09dfde91a2c9ee6d2370c07" title="menu principal de la terminales que utilizan UART " alt="" coords="345,5,479,32"/>
+<area shape="rect" id="node3" href="$menu_8h.html#a17967837d6d07246adb5fee041adadb3" title="función / estado en el cual se puede leer la memoria al ingresar el valor de la dirreccion a leer ..." alt="" coords="347,56,477,83"/>
+<area shape="rect" id="node4" href="$menu_8h.html#a958aa1815ff4ad7444defcc83b9a3aed" title="función / estado en el cual se puede escribir en la memoria al ingresar el valor de la dirreccion a es..." alt="" coords="345,107,479,133"/>
+<area shape="rect" id="node5" href="$menu_8h.html#ab2e48e2d5cd8873d3eed9464df6e23c9" title="función / estado en el cual se configura la hora " alt="" coords="359,309,465,336"/>
+<area shape="rect" id="node6" href="$menu_8h.html#a1d0928b273269905fd0b0c4f6b8194bb" title="función / estado en el cual se configura la fecha " alt="" coords="359,360,465,387"/>
+<area shape="rect" id="node7" href="$menu_8h.html#a3b9c9d000570ddf92d4469305dd3e5d6" title="función / estado en el cual se configura el formato de hora " alt="" coords="351,411,473,437"/>
+<area shape="rect" id="node8" href="$menu_8h.html#a06beb2b50e2f8ade8dcf90dfdbe2aacf" title="función / estado en el cual se despliega la opcion de usar terminal 2 " alt="" coords="324,461,500,488"/>
+<area shape="rect" id="node9" href="$menu_8h.html#a96c2b25986341e028ecce36eb67348a9" title="función / estado en el cual se puede hacer el echo " alt="" coords="355,512,469,539"/>
+<area shape="rect" id="node10" href="$_u_a_r_t_8h.html#af95ee594ce5f1619abbe4f2393b1903e" title="It sends a string character through the serial port. " alt="" coords="161,259,276,285"/>
+<area shape="rect" id="node11" href="$menu_8h.html#a1b1ff2befe8f028af5976f536526b60a" title="función / estado en el cual se puede leer la hora " alt="" coords="356,157,468,184"/>
+<area shape="rect" id="node12" href="$menu_8h.html#ad5f7f79d47bb75a628da8cc7a4e98688" title="función / estado en el cual se puede leer la fecha " alt="" coords="356,208,468,235"/>
+<area shape="rect" id="node13" href="$menu_8h.html#a5afb415131737d4dc7a56ffa52b3f3c5" title="función / estado para advertir que la mísma función esta en uso " alt="" coords="388,259,436,285"/>
+</map>

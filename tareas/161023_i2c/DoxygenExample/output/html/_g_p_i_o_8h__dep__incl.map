@@ -1,0 +1,19 @@
+<map id="GPIO.h" name="GPIO.h">
+<area shape="rect" id="node2" href="$_flex_timer_8h.html" title="FlexTimer.h" alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node4" href="$_s_p_i_8h.html" title="This is a starter file to use the Nokia 5510 LCD. The LCD is connected as follows: reset&#45;PDT0 CE&#45;GND ..." alt="" coords="350,155,405,181"/>
+<area shape="rect" id="node5" href="$_f_s_m_l_c_d_8h.html" title="FSMLCD.h" alt="" coords="495,229,582,256"/>
+<area shape="rect" id="node7" href="$menu_8h.html" title="el menu principal de las terminales " alt="" coords="658,304,723,331"/>
+<area shape="rect" id="node8" href="$main_8c.html" title="main.c" alt="" coords="524,379,585,405"/>
+<area shape="rect" id="node10" href="$_l_c_d_nokia5110_8c.html" title="LCDNokia5110.c" alt="" coords="353,229,471,256"/>
+<area shape="rect" id="node12" href="$_i2_c_8h.html" title="I2C.h" alt="" coords="714,80,766,107"/>
+<area shape="rect" id="node18" href="$_g_p_i_o_8c.html" title="Este es el archivo fuente para el driver del GPIO para la Kinetis K64 Este contiene todas las impleme..." alt="" coords="1047,80,1113,107"/>
+<area shape="rect" id="node3" href="$_flex_timer_8c.html" title="FlexTimer.c" alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node11" href="$_s_p_i_8c.html" title="SPI.c" alt="" coords="222,229,277,256"/>
+<area shape="rect" id="node6" href="$_f_s_m_l_c_d_8c.html" title="FSMLCD.c" alt="" coords="430,304,517,331"/>
+<area shape="rect" id="node9" href="$menu_8c.html" title="menu.c" alt="" coords="658,379,723,405"/>
+<area shape="rect" id="node13" href="$_r_t_c_8h.html" title="RTC. " alt="" coords="631,155,689,181"/>
+<area shape="rect" id="node15" href="$_i2_c_8c.html" title="I2C.c" alt="" coords="714,155,766,181"/>
+<area shape="rect" id="node16" href="$_memory_8h.html" title="Memory.h" alt="" coords="841,155,921,181"/>
+<area shape="rect" id="node14" href="$_r_t_c_8c.html" title="this module is for obtain and write date and hour " alt="" coords="708,229,767,256"/>
+<area shape="rect" id="node17" href="$_memory_8c.html" title="Memory.c" alt="" coords="841,229,921,256"/>
+</map>

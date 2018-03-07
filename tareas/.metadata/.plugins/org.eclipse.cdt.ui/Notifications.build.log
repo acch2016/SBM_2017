@@ -1,0 +1,11 @@
+19:10:46 **** Incremental Build of configuration Debug for project Notifications ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Notifications.elf"
+   text	   data	    bss	    dec	    hex	filename
+  24856	    124	  13196	  38176	   9520	Notifications.elf
+Finished building: Notifications.siz
+ 
+
+19:10:52 Build Finished (took 5s.601ms)
+

@@ -1,0 +1,432 @@
+15:26:25 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+In file included from ../source/initializations.c:10:0:
+../source/initializations.h:40:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'xCountingSemaphore_green'
+ SemaphoreHandle_t  xCountingSemaphore_green;
+                    ^
+../source/initializations.c: In function 'Semaphore_blue':
+../source/initializations.c:13:9: error: 'xCountingSemaphore_blue_' undeclared (first use in this function)
+  return xCountingSemaphore_blue_;
+         ^
+../source/initializations.c:13:9: note: each undeclared identifier is reported only once for each function it appears in
+../source/initializations.c: In function 'Semaphore_green':
+../source/initializations.c:17:9: error: 'xCountingSemaphore_green' undeclared (first use in this function)
+  return xCountingSemaphore_green;
+         ^
+../source/initializations.c: In function 'init':
+../source/initializations.c:55:4: error: 'xCountingSemaphore_blue_' undeclared (first use in this function)
+    xCountingSemaphore_blue_ = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:56:4: error: 'xCountingSemaphore_green' undeclared (first use in this function)
+    xCountingSemaphore_green = xSemaphoreCreateCounting( 10, 0 );
+    ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:27:18 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+In file included from ../source/initializations.c:10:0:
+../source/initializations.h:42:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Semaphore_blue'
+ SemaphoreHandle_t Semaphore_blue (void);
+                   ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:27:51 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+In file included from ../source/initializations.c:10:0:
+../source/initializations.h:50:1: error: two or more data types in declaration specifiers
+ void init(void);
+ ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:28:32 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+../source/initializations.c:12:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'xCountingSemaphore_blue_'
+ SemaphoreHandle_t  xCountingSemaphore_blue_;
+                    ^
+../source/initializations.c: In function 'Semaphore_blue':
+../source/initializations.c:25:9: error: 'xCountingSemaphore_blue_' undeclared (first use in this function)
+  return xCountingSemaphore_blue_;
+         ^
+../source/initializations.c:25:9: note: each undeclared identifier is reported only once for each function it appears in
+../source/initializations.c: In function 'init':
+../source/initializations.c:67:4: error: 'xCountingSemaphore_blue_' undeclared (first use in this function)
+    xCountingSemaphore_blue_ = xSemaphoreCreateCounting( 10, 0 );
+    ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:33:56 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+../source/initializations.c:10:10: warning: missing terminating " character [enabled by default]
+ #include "initializations.h
+          ^
+../source/initializations.c:10:10: error: #include expects "FILENAME" or <FILENAME>
+../source/initializations.c: In function 'init':
+../source/initializations.c:17:4: warning: implicit declaration of function 'BOARD_InitPins' [-Wimplicit-function-declaration]
+    BOARD_InitPins();
+    ^
+../source/initializations.c:18:4: warning: implicit declaration of function 'BOARD_BootClockRUN' [-Wimplicit-function-declaration]
+    BOARD_BootClockRUN();
+    ^
+../source/initializations.c:19:4: warning: implicit declaration of function 'BOARD_InitDebugConsole' [-Wimplicit-function-declaration]
+    BOARD_InitDebugConsole();
+    ^
+../source/initializations.c:23:4: error: unknown type name 'gpio_pin_config_t'
+    gpio_pin_config_t sw_config = {
+    ^
+../source/initializations.c:24:8: error: 'kGPIO_DigitalInput' undeclared (first use in this function)
+        kGPIO_DigitalInput, 0,
+        ^
+../source/initializations.c:24:8: note: each undeclared identifier is reported only once for each function it appears in
+../source/initializations.c:24:8: warning: excess elements in scalar initializer [enabled by default]
+../source/initializations.c:24:8: warning: (near initialization for 'sw_config') [enabled by default]
+../source/initializations.c:28:4: error: unknown type name 'gpio_pin_config_t'
+    gpio_pin_config_t led_config = {
+    ^
+../source/initializations.c:29:8: error: 'kGPIO_DigitalOutput' undeclared (first use in this function)
+        kGPIO_DigitalOutput, 0,
+        ^
+../source/initializations.c:29:8: warning: excess elements in scalar initializer [enabled by default]
+../source/initializations.c:29:8: warning: (near initialization for 'led_config') [enabled by default]
+../source/initializations.c:32:4: warning: implicit declaration of function 'PORT_SetPinInterruptConfig' [-Wimplicit-function-declaration]
+    PORT_SetPinInterruptConfig(BOARD_SW_PORT, BOARD_SW_GPIO_PIN, kPORT_InterruptFallingEdge);
+    ^
+../source/initializations.c:32:31: error: 'BOARD_SW_PORT' undeclared (first use in this function)
+    PORT_SetPinInterruptConfig(BOARD_SW_PORT, BOARD_SW_GPIO_PIN, kPORT_InterruptFallingEdge);
+                               ^
+../source/initializations.c:32:46: error: 'BOARD_SW_GPIO_PIN' undeclared (first use in this function)
+    PORT_SetPinInterruptConfig(BOARD_SW_PORT, BOARD_SW_GPIO_PIN, kPORT_InterruptFallingEdge);
+                                              ^
+../source/initializations.c:32:65: error: 'kPORT_InterruptFallingEdge' undeclared (first use in this function)
+    PORT_SetPinInterruptConfig(BOARD_SW_PORT, BOARD_SW_GPIO_PIN, kPORT_InterruptFallingEdge);
+                                                                 ^
+../source/initializations.c:34:5: warning: implicit declaration of function 'GPIO_PinInit' [-Wimplicit-function-declaration]
+     GPIO_PinInit(BOARD_SW_GPIO, BOARD_SW_GPIO_PIN, &sw_config);
+     ^
+../source/initializations.c:34:18: error: 'BOARD_SW_GPIO' undeclared (first use in this function)
+     GPIO_PinInit(BOARD_SW_GPIO, BOARD_SW_GPIO_PIN, &sw_config);
+                  ^
+../source/initializations.c:37:5: warning: implicit declaration of function 'NVIC_SetPriority' [-Wimplicit-function-declaration]
+     NVIC_SetPriority( BOARD_SW_IRQ, 5 );
+     ^
+../source/initializations.c:37:23: error: 'BOARD_SW_IRQ' undeclared (first use in this function)
+     NVIC_SetPriority( BOARD_SW_IRQ, 5 );
+                       ^
+../source/initializations.c:38:5: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+     NVIC_EnableIRQ( BOARD_SW_IRQ );
+     ^
+../source/initializations.c:41:4: error: unknown type name 'portBASE_TYPE'
+    portBASE_TYPE xHigherPriorityTaskWoken = pdFALSE;
+    ^
+../source/initializations.c:41:45: error: 'pdFALSE' undeclared (first use in this function)
+    portBASE_TYPE xHigherPriorityTaskWoken = pdFALSE;
+                                             ^
+../source/initializations.c:44:4: error: 'xCountingSemaphore_blue' undeclared (first use in this function)
+    xCountingSemaphore_blue = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:44:4: warning: implicit declaration of function 'xSemaphoreCreateCounting' [-Wimplicit-function-declaration]
+../source/initializations.c:45:4: error: 'xCountingSemaphore_green' undeclared (first use in this function)
+    xCountingSemaphore_green = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:46:4: error: 'xCountingSemaphore_red' undeclared (first use in this function)
+    xCountingSemaphore_red = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:51:3: warning: implicit declaration of function 'PORT_SetPinMux' [-Wimplicit-function-declaration]
+   PORT_SetPinMux(BOARD_LED_RED_GPIO_PORT, BOARD_LED_RED_GPIO_PIN, kPORT_MuxAsGpio);
+   ^
+../source/initializations.c:51:18: error: 'BOARD_LED_RED_GPIO_PORT' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_RED_GPIO_PORT, BOARD_LED_RED_GPIO_PIN, kPORT_MuxAsGpio);
+                  ^
+../source/initializations.c:51:43: error: 'BOARD_LED_RED_GPIO_PIN' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_RED_GPIO_PORT, BOARD_LED_RED_GPIO_PIN, kPORT_MuxAsGpio);
+                                           ^
+../source/initializations.c:51:67: error: 'kPORT_MuxAsGpio' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_RED_GPIO_PORT, BOARD_LED_RED_GPIO_PIN, kPORT_MuxAsGpio);
+                                                                   ^
+../source/initializations.c:52:18: error: 'BOARD_LED_GREEN_GPIO_PORT' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_GREEN_GPIO_PORT, BOARD_LED_GREEN_GPIO_PIN, kPORT_MuxAsGpio);
+                  ^
+../source/initializations.c:52:45: error: 'BOARD_LED_GREEN_GPIO_PIN' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_GREEN_GPIO_PORT, BOARD_LED_GREEN_GPIO_PIN, kPORT_MuxAsGpio);
+                                             ^
+../source/initializations.c:53:18: error: 'BOARD_LED_BLUE_GPIO_PORT' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_BLUE_GPIO_PORT, BOARD_LED_BLUE_GPIO_PIN, kPORT_MuxAsGpio);
+                  ^
+../source/initializations.c:53:44: error: 'BOARD_LED_BLUE_GPIO_PIN' undeclared (first use in this function)
+   PORT_SetPinMux(BOARD_LED_BLUE_GPIO_PORT, BOARD_LED_BLUE_GPIO_PIN, kPORT_MuxAsGpio);
+                                            ^
+../source/initializations.c:56:3: warning: implicit declaration of function 'LED_RED_INIT' [-Wimplicit-function-declaration]
+   LED_RED_INIT(LOGIC_LED_OFF);
+   ^
+../source/initializations.c:56:16: error: 'LOGIC_LED_OFF' undeclared (first use in this function)
+   LED_RED_INIT(LOGIC_LED_OFF);
+                ^
+../source/initializations.c:57:3: warning: implicit declaration of function 'LED_GREEN_INIT' [-Wimplicit-function-declaration]
+   LED_GREEN_INIT(LOGIC_LED_OFF);
+   ^
+../source/initializations.c:58:3: warning: implicit declaration of function 'LED_BLUE_INIT' [-Wimplicit-function-declaration]
+   LED_BLUE_INIT(LOGIC_LED_OFF);
+   ^
+../source/initializations.c:61:3: warning: implicit declaration of function 'xTaskCreate' [-Wimplicit-function-declaration]
+   xTaskCreate(red_task, "RED_TASK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+   ^
+../source/initializations.c:61:15: error: 'red_task' undeclared (first use in this function)
+   xTaskCreate(red_task, "RED_TASK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+               ^
+../source/initializations.c:61:37: error: 'configMINIMAL_STACK_SIZE' undeclared (first use in this function)
+   xTaskCreate(red_task, "RED_TASK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+                                     ^
+../source/initializations.c:61:63: error: 'NULL' undeclared (first use in this function)
+   xTaskCreate(red_task, "RED_TASK", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+                                                               ^
+../source/initializations.c:62:15: error: 'blue_task' undeclared (first use in this function)
+   xTaskCreate(blue_task, "BLUE_TASK", configMINIMAL_STACK_SIZE, NULL, 3, NULL);
+               ^
+../source/initializations.c:63:15: error: 'green_task' undeclared (first use in this function)
+   xTaskCreate(green_task, "GREEN_TASK", configMINIMAL_STACK_SIZE, NULL,2, NULL);
+               ^
+../source/initializations.c:66:4: warning: implicit declaration of function 'vTaskStartScheduler' [-Wimplicit-function-declaration]
+    vTaskStartScheduler();
+    ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:34:04 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+../source/initializations.c:13:1: error: two or more data types in declaration specifiers
+ void init(){
+ ^
+../source/initializations.c: In function 'init':
+../source/initializations.c:44:4: error: 'xCountingSemaphore_blue' undeclared (first use in this function)
+    xCountingSemaphore_blue = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:44:4: note: each undeclared identifier is reported only once for each function it appears in
+../source/initializations.c:45:4: error: 'xCountingSemaphore_green' undeclared (first use in this function)
+    xCountingSemaphore_green = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:46:4: error: 'xCountingSemaphore_red' undeclared (first use in this function)
+    xCountingSemaphore_red = xSemaphoreCreateCounting( 10, 0 );
+    ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:36:03 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+../source/initializations.c:13:1: error: two or more data types in declaration specifiers
+ void init(){
+ ^
+../source/initializations.c: In function 'init':
+../source/initializations.c:44:4: error: 'xCountingSemaphore_blue' undeclared (first use in this function)
+    xCountingSemaphore_blue = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:44:4: note: each undeclared identifier is reported only once for each function it appears in
+../source/initializations.c:45:4: error: 'xCountingSemaphore_green' undeclared (first use in this function)
+    xCountingSemaphore_green = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:46:4: error: 'xCountingSemaphore_red' undeclared (first use in this function)
+    xCountingSemaphore_red = xSemaphoreCreateCounting( 10, 0 );
+    ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:50:54 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+In file included from ../source/initializations.c:10:0:
+../source/initializations.h:39:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'xCountingSemaphore_blue'
+ SemaphoreHandle_t xCountingSemaphore_blue;
+                   ^
+../source/initializations.c: In function 'init':
+../source/initializations.c:44:4: error: 'xCountingSemaphore_blue' undeclared (first use in this function)
+    xCountingSemaphore_blue = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:44:4: note: each undeclared identifier is reported only once for each function it appears in
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:52:33 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+Finished building: ../source/initializations.c
+ 
+Building file: ../source/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/main.d" -MT"source/main.o" -c -o "source/main.o" "../source/main.c"
+../source/main.c: In function 'PORTA_IRQHandler':
+../source/main.c:11:2: warning: implicit declaration of function 'Semaphore_blue' [-Wimplicit-function-declaration]
+  xSemaphoreGiveFromISR( Semaphore_blue(), &xHigherPriorityTaskWoken );
+  ^
+../source/main.c: In function 'main':
+../source/main.c:23:2: warning: implicit declaration of function 'init' [-Wimplicit-function-declaration]
+  init();
+  ^
+Finished building: ../source/main.c
+ 
+Building file: ../source/user.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/user.d" -MT"source/user.o" -c -o "source/user.o" "../source/user.c"
+../source/user.c: In function 'blue_task':
+../source/user.c:33:3: warning: implicit declaration of function 'Semaphore_blue' [-Wimplicit-function-declaration]
+   xSemaphoreTake( Semaphore_blue(),  portMAX_DELAY  );
+   ^
+../source/user.c:41:3: warning: implicit declaration of function 'Semaphore_green' [-Wimplicit-function-declaration]
+   xSemaphoreGive( Semaphore_green());
+   ^
+../source/user.c: In function 'green_task':
+../source/user.c:63:3: warning: implicit declaration of function 'Semaphore_red' [-Wimplicit-function-declaration]
+   xSemaphoreGive( Semaphore_red());
+   ^
+Finished building: ../source/user.c
+ 
+Building target: CountingSemaphores.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -T "../MK64FN1M0xxx12_flash.ld" -Xlinker --gc-sections -Wl,-Map,"CountingSemaphores.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "CountingSemaphores.elf"  ./utilities/fsl_debug_console.o ./utilities/fsl_notifier.o ./utilities/fsl_sbrk.o ./utilities/fsl_shell.o  ./startup/startup_MK64F12.o ./startup/system_MK64F12.o  ./source/Delay.o ./source/initializations.o ./source/main.o ./source/user.o  ./freertos/Source/portable/MemMang/heap_4.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_lptmr.o ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o   
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccFeTtaJ.ltrans24.ltrans.o: In function `init':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccFeTtaJ.ltrans24.ltrans.o: In function `PORTA_IRQHandler':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/main.c:11: undefined reference to `Semaphore_blue'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccFeTtaJ.ltrans24.ltrans.o: In function `blue_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:33: undefined reference to `Semaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:41: undefined reference to `Semaphore_green'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccFeTtaJ.ltrans24.ltrans.o: In function `green_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:55: undefined reference to `Semaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:63: undefined reference to `Semaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccFeTtaJ.ltrans24.ltrans.o: In function `red_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:79: undefined reference to `Semaphore_red'
+collect2.exe: error: ld returned 1 exit status
+makefile:64: recipe for target 'CountingSemaphores.elf' failed
+make: *** [CountingSemaphores.elf] Error 1
+15:54:15 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/user.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/user.d" -MT"source/user.o" -c -o "source/user.o" "../source/user.c"
+Finished building: ../source/user.c
+ 
+Building target: CountingSemaphores.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -T "../MK64FN1M0xxx12_flash.ld" -Xlinker --gc-sections -Wl,-Map,"CountingSemaphores.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "CountingSemaphores.elf"  ./utilities/fsl_debug_console.o ./utilities/fsl_notifier.o ./utilities/fsl_sbrk.o ./utilities/fsl_shell.o  ./startup/startup_MK64F12.o ./startup/system_MK64F12.o  ./source/Delay.o ./source/initializations.o ./source/main.o ./source/user.o  ./freertos/Source/portable/MemMang/heap_4.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_lptmr.o ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o   
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccuqIwtU.ltrans24.ltrans.o: In function `init':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccuqIwtU.ltrans24.ltrans.o: In function `PORTA_IRQHandler':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/main.c:11: undefined reference to `Semaphore_blue'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccuqIwtU.ltrans24.ltrans.o: In function `blue_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:45: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:45: undefined reference to `xCountingSemaphore_green'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccuqIwtU.ltrans24.ltrans.o: In function `green_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:65: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:65: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccuqIwtU.ltrans24.ltrans.o: In function `red_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:89: undefined reference to `xCountingSemaphore_red'
+collect2.exe: error: ld returned 1 exit status
+makefile:64: recipe for target 'CountingSemaphores.elf' failed
+make: *** [CountingSemaphores.elf] Error 1
+15:57:24 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+../source/initializations.c: In function 'init':
+../source/initializations.c:44:4: error: 'xCountingSemaphore_blue' undeclared (first use in this function)
+    xCountingSemaphore_blue = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:44:4: note: each undeclared identifier is reported only once for each function it appears in
+../source/initializations.c:45:4: error: 'xCountingSemaphore_green' undeclared (first use in this function)
+    xCountingSemaphore_green = xSemaphoreCreateCounting( 10, 0 );
+    ^
+../source/initializations.c:46:4: error: 'xCountingSemaphore_red' undeclared (first use in this function)
+    xCountingSemaphore_red = xSemaphoreCreateCounting( 10, 0 );
+    ^
+source/subdir.mk:27: recipe for target 'source/initializations.o' failed
+make: *** [source/initializations.o] Error 1
+15:59:58 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building file: ../source/initializations.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/initializations.d" -MT"source/initializations.o" -c -o "source/initializations.o" "../source/initializations.c"
+Finished building: ../source/initializations.c
+ 
+Building file: ../source/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/main.d" -MT"source/main.o" -c -o "source/main.o" "../source/main.c"
+../source/main.c: In function 'PORTA_IRQHandler':
+../source/main.c:11:2: warning: implicit declaration of function 'Semaphore_blue' [-Wimplicit-function-declaration]
+  xSemaphoreGiveFromISR( Semaphore_blue(), &xHigherPriorityTaskWoken );
+  ^
+../source/main.c: In function 'main':
+../source/main.c:23:2: warning: implicit declaration of function 'init' [-Wimplicit-function-declaration]
+  init();
+  ^
+Finished building: ../source/main.c
+ 
+Building file: ../source/user.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/user.d" -MT"source/user.o" -c -o "source/user.o" "../source/user.c"
+Finished building: ../source/user.c
+ 
+Building target: CountingSemaphores.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -T "../MK64FN1M0xxx12_flash.ld" -Xlinker --gc-sections -Wl,-Map,"CountingSemaphores.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "CountingSemaphores.elf"  ./utilities/fsl_debug_console.o ./utilities/fsl_notifier.o ./utilities/fsl_sbrk.o ./utilities/fsl_shell.o  ./startup/startup_MK64F12.o ./startup/system_MK64F12.o  ./source/Delay.o ./source/initializations.o ./source/main.o ./source/user.o  ./freertos/Source/portable/MemMang/heap_4.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_lptmr.o ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o   
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccg5eoYK.ltrans24.ltrans.o: In function `init':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccg5eoYK.ltrans24.ltrans.o: In function `PORTA_IRQHandler':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/main.c:11: undefined reference to `Semaphore_blue'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccg5eoYK.ltrans24.ltrans.o: In function `blue_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:45: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:45: undefined reference to `xCountingSemaphore_green'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccg5eoYK.ltrans24.ltrans.o: In function `green_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:65: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:65: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccg5eoYK.ltrans24.ltrans.o: In function `red_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:89: undefined reference to `xCountingSemaphore_red'
+collect2.exe: error: ld returned 1 exit status
+makefile:64: recipe for target 'CountingSemaphores.elf' failed
+make: *** [CountingSemaphores.elf] Error 1
+16:13:48 **** Incremental Build of configuration Debug for project CountingSemaphores ****
+make -j1 all 
+Building target: CountingSemaphores.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -T "../MK64FN1M0xxx12_flash.ld" -Xlinker --gc-sections -Wl,-Map,"CountingSemaphores.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "CountingSemaphores.elf"  ./utilities/fsl_debug_console.o ./utilities/fsl_notifier.o ./utilities/fsl_sbrk.o ./utilities/fsl_shell.o  ./startup/startup_MK64F12.o ./startup/system_MK64F12.o  ./source/Delay.o ./source/initializations.o ./source/main.o ./source/user.o  ./freertos/Source/portable/MemMang/heap_4.o  ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_lptmr.o ./freertos/Source/portable/GCC/ARM_CM4F/fsl_tickless_systick.o ./freertos/Source/portable/GCC/ARM_CM4F/port.o  ./freertos/Source/croutine.o ./freertos/Source/event_groups.o ./freertos/Source/list.o ./freertos/Source/queue.o ./freertos/Source/tasks.o ./freertos/Source/timers.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_dspi_freertos.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_i2c_freertos.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_uart_freertos.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o   
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccbmTBxm.ltrans24.ltrans.o: In function `init':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/initializations.c:68: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccbmTBxm.ltrans24.ltrans.o: In function `PORTA_IRQHandler':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/main.c:11: undefined reference to `Semaphore_blue'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccbmTBxm.ltrans24.ltrans.o: In function `blue_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:45: undefined reference to `xCountingSemaphore_blue'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:45: undefined reference to `xCountingSemaphore_green'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccbmTBxm.ltrans24.ltrans.o: In function `green_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:65: undefined reference to `xCountingSemaphore_green'
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:65: undefined reference to `xCountingSemaphore_red'
+C:\Users\ALEJAN~1\AppData\Local\Temp\ccbmTBxm.ltrans24.ltrans.o: In function `red_task':
+C:\proyectosSBM\CountingSemaphores\CountingSemaphores\Debug/../source/user.c:89: undefined reference to `xCountingSemaphore_red'
+collect2.exe: error: ld returned 1 exit status
+makefile:64: recipe for target 'CountingSemaphores.elf' failed
+make: *** [CountingSemaphores.elf] Error 1

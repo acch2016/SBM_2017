@@ -1,0 +1,17 @@
+<map id="RTC_changeFormat" name="RTC_changeFormat">
+<area shape="rect" id="node2" href="$_r_t_c_8c.html#aaec022c07acfd9b12270e6ddd8ac2c8a" title="obtiene la hora leyendo del RTC por I2C " alt="" coords="203,237,309,264"/>
+<area shape="rect" id="node15" href="$_r_t_c_8c.html#adebd8454ab83907563fb817effe1a72e" title="Lee los segundos del RTC. " alt="" coords="191,187,321,213"/>
+<area shape="rect" id="node16" href="$_r_t_c_8c.html#a72b3cd437d82fa62ffe9185c069c0f57" title="escribir en el RTC " alt="" coords="369,136,477,163"/>
+<area shape="rect" id="node3" href="$_r_t_c_8c.html#a9a98cbc7a571a7ac2a3a5266a80ec235" title="leer del RTC " alt="" coords="370,237,477,264"/>
+<area shape="rect" id="node4" href="$_i2_c_8c.html#a0f3ef5ef6878c9337e4bd8341628e42e" title="It selects between transmitter mode or receiver mode. " alt="" coords="718,35,842,61"/>
+<area shape="rect" id="node5" href="$_i2_c_8c.html#a09d9820de1e99617f206ef60a9a9d2e8" title="Generates the start signal. When MST bit is changed from 0 to 1, a START signal is generated on the b..." alt="" coords="551,35,626,61"/>
+<area shape="rect" id="node7" href="$_global_functions_8c.html#aa7fa622ced5687f8351d589e9402b251" title="delay" alt="" coords="562,237,615,264"/>
+<area shape="rect" id="node8" href="$_i2_c_8c.html#a9b27c7aa55f8a11a274dd36b6f8a6d2f" title="It writes the data to be transmitted into the transmission buffer. When you want to write a value int..." alt="" coords="534,288,643,315"/>
+<area shape="rect" id="node9" href="$_i2_c_8c.html#a05143bfcf3eeb04ec1dfc7e4ab952689" title="Indicates the status of the bus regardless of slave or master mode. Internally checks the busy bit in..." alt="" coords="553,136,624,163"/>
+<area shape="rect" id="node10" href="$_i2_c_8c.html#aa5a3b846186cda9225be84e16af84356" title="Indicates if the acknowledge was received. " alt="" coords="539,187,639,213"/>
+<area shape="rect" id="node11" href="$_i2_c_8c.html#a577158ebfa27fcb673a5727e95d2d853" title="It generates a repeated start that is needed when master reads data. " alt="" coords="525,491,652,517"/>
+<area shape="rect" id="node12" href="$_i2_c_8c.html#aae489f3896588f59173688541155aa32" title="It generates the Not ACKnowledge that is needed when the master reads data. " alt="" coords="547,389,631,416"/>
+<area shape="rect" id="node13" href="$_i2_c_8c.html#a689c3512503f9420b3d4fcd32ad6585f" title="It reads data from the receiving buffer. " alt="" coords="535,440,642,467"/>
+<area shape="rect" id="node14" href="$_i2_c_8c.html#a0635b74679cdb09c91ef36aa4181a911" title="Generates the stop signal. When this bit changes from 1 to 0, a STOP signal is generated and the mode..." alt="" coords="552,85,625,112"/>
+<area shape="rect" id="node6" href="$_i2_c_8c.html#a2371441eff8976056f8ffbe086176783" title="It selects between master or slave mode. " alt="" coords="700,85,860,112"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="menuLCD" name="menuLCD">
+<area shape="rect" id="node2" href="$_l_c_d_nokia5110_8c.html#adc1fba60e5f678b64c83928f2acfdd92" title="/**it clears all the figures in the LCD " alt="" coords="149,56,264,83"/>
+<area shape="rect" id="node9" href="$_l_c_d_nokia5110_8c.html#a4ca11709ea8f3d65c2b0b84486571564" title="/It is used to indicate the place for writing a new character in the LCD. The values that x can take ..." alt="" coords="337,107,465,133"/>
+<area shape="rect" id="node10" href="$_l_c_d_nokia5110_8c.html#a525ae25a85275a66f6b7b0c09ea202e2" title="/**It write a string into the LCD " alt="" coords="132,157,281,184"/>
+<area shape="rect" id="node12" href="$_g_p_i_o_8c.html#a164a6ff638b32776e841945a3fa1ee11" title="Retorna el valor de la bandera de la interrupción del puerto B. " alt="" coords="148,208,265,235"/>
+<area shape="rect" id="node13" href="$_g_p_i_o_8c.html#a48d326be6539cb51ec73ee44a677da30" title="Limpia el valor de la bandera de la interrupción del puerto B. " alt="" coords="147,259,267,285"/>
+<area shape="rect" id="node3" href="$_l_c_d_nokia5110_8c.html#a50599408f6fa872625e51271742cb013" title="It writes a byte in the LCD memory. The place of writting is the last place that was indicated by LCD..." alt="" coords="520,107,661,133"/>
+<area shape="rect" id="node4" href="$_g_p_i_o_8c.html#acb526ef87a32ac98905b39a88c04a928" title="This set an specific pin in a GPIO port. " alt="" coords="731,5,831,32"/>
+<area shape="rect" id="node5" href="$_g_p_i_o_8c.html#a8e0195242968e9d04da390a9f40e88a3" title="This clear an specific pin in a GPIO port. " alt="" coords="725,56,836,83"/>
+<area shape="rect" id="node6" href="$_s_p_i_8c.html#a747d339e8353778bf7f8635a91d0a5f9" title="/*It stars the SPI transmission by modifying the value of HALT bit " alt="" coords="709,107,852,133"/>
+<area shape="rect" id="node7" href="$_s_p_i_8c.html#a8ca8cd04c9bc2ef898aee5d38b829642" title="/*It transmits the information contained in data " alt="" coords="716,157,845,184"/>
+<area shape="rect" id="node8" href="$_s_p_i_8c.html#a12e009cdc7cb64988ecf0814c3524f88" title="/*It stops the SPI transmission by modifying the value of HALT bit " alt="" coords="709,208,852,235"/>
+<area shape="rect" id="node11" href="$_l_c_d_nokia5110_8c.html#ab566963d1b8e9928cbf0148cdd736b39" title="/**It write a character in the LCD " alt="" coords="329,157,472,184"/>
+</map>

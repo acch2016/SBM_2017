@@ -1,0 +1,6 @@
+19:11:10 **** Incremental Build of configuration debug for project dev_hid_mouse_freertos_frdmk64f ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+
+19:11:10 Build Finished (took 515ms)
+

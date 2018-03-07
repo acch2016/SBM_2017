@@ -1,0 +1,11 @@
+19:14:43 **** Incremental Build of configuration Debug for project Cooperative ****
+make -j1 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Cooperative.elf"
+   text	   data	    bss	    dec	    hex	filename
+  26704	    124	  13196	  40024	   9c58	Cooperative.elf
+Finished building: Cooperative.siz
+ 
+
+19:14:46 Build Finished (took 2s.527ms)
+

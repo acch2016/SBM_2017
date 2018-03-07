@@ -1,0 +1,9 @@
+<map id="GPIO_pinControlRegister" name="GPIO_pinControlRegister">
+<area shape="rect" id="node2" href="$_f_s_m_l_c_d_8h.html#a73e572e168f6d3d9b9621ba43a4ae478" title="Configuration_LCD" alt="" coords="369,5,499,32"/>
+<area shape="rect" id="node4" href="$_i2_c_8h.html#a814e6688339fc695fcc3655878389ff6" title="I2C_pinConfig" alt="" coords="220,56,321,83"/>
+<area shape="rect" id="node7" href="$_l_c_d_nokia5110_8h.html#a428271978e3456946f4abdd957760dcd" title="/**It configures the LCD " alt="" coords="547,107,651,133"/>
+<area shape="rect" id="node8" href="$_s_p_i_8h.html#a31152f14e43ecf7368324eb0a0542dd5" title="It configures the SPI for transmission, this function as arguments receives a pointer to a constant s..." alt="" coords="237,157,304,184"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="699,81,749,108"/>
+<area shape="rect" id="node5" href="$_i2_c_8h.html#ad3debd22077c360e4160b99d091fe44c" title="Configures the I2C port based on the input parameters. Also, internally this function configures the ..." alt="" coords="401,56,467,83"/>
+<area shape="rect" id="node6" href="$_r_t_c_8h.html#aaacc65d028b006a961eef7ab69b903c5" title="Inicializar el RTC con hora predeterminada. " alt="" coords="563,56,634,83"/>
+</map>

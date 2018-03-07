@@ -1,0 +1,47 @@
+20:17:26 **** Incremental Build of configuration Debug for project T5_SPI_UART ****
+make -j4 all 
+Building file: ../source/LCDNokia5110.c
+Building file: ../source/LCDNokia5110Images.c
+Invoking: Cross ARM C Compiler
+Invoking: Cross ARM C Compiler
+Building file: ../drivers/fsl_ewm.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/LCDNokia5110Images.d" -MT"source/LCDNokia5110Images.o" -c -o "source/LCDNokia5110Images.o" "../source/LCDNokia5110Images.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"source/LCDNokia5110.d" -MT"source/LCDNokia5110.o" -c -o "source/LCDNokia5110.o" "../source/LCDNokia5110.c"
+Building file: ../drivers/fsl_flash.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"drivers/fsl_ewm.d" -MT"drivers/fsl_ewm.o" -c -o "drivers/fsl_ewm.o" "../drivers/fsl_ewm.c"
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto  -g3 -D"CPU_MK64FN1M0VDC12" -I../freertos/Source/include -I../startup -I../board -I../utilities -I../freertos/Source/portable/GCC/ARM_CM4F -I../CMSIS -I../source -I../drivers -std=c99 -MMD -MP -MF"drivers/fsl_flash.d" -MT"drivers/fsl_flash.o" -c -o "drivers/fsl_flash.o" "../drivers/fsl_flash.c"
+In file included from ../source/LCDNokia5110Images.c:2:0:
+../source/LCDNokia5110Images.h:6:1: error: unknown type name 'uint8_t'
+ uint8_t getCheck();
+ ^
+../source/LCDNokia5110Images.c:4:1: error: unknown type name 'uint8_t'
+ const uint8_t CHECK[] = {
+ ^
+../source/LCDNokia5110Images.c:39:1: error: unknown type name 'uint8_t'
+ const uint8_t ITESO[] = {
+ ^
+../source/LCDNokia5110Images.c:74:1: error: unknown type name 'uint8_t'
+ uint8_t getCheck(){
+ ^
+source/subdir.mk:33: recipe for target 'source/LCDNokia5110Images.o' failed
+make: *** [source/LCDNokia5110Images.o] Error 1
+make: *** Waiting for unfinished jobs....
+../source/LCDNokia5110.c: In function 'LCDNokia_writeByte':
+../source/LCDNokia5110.c:157:43: error: 'g_m_handle' undeclared (first use in this function)
+     DSPI_MasterTransferNonBlocking(SPI0, &g_m_handle, &masterXfer);
+                                           ^
+../source/LCDNokia5110.c:157:43: note: each undeclared identifier is reported only once for each function it appears in
+../source/LCDNokia5110.c:157:56: error: 'masterXfer' undeclared (first use in this function)
+     DSPI_MasterTransferNonBlocking(SPI0, &g_m_handle, &masterXfer);
+                                                        ^
+source/subdir.mk:33: recipe for target 'source/LCDNokia5110.o' failed
+make: *** [source/LCDNokia5110.o] Error 1
+Finished building: ../drivers/fsl_ewm.c
+ 
+Finished building: ../drivers/fsl_flash.c
+ 
+
+20:17:27 Build Finished (took 1s.154ms)
+

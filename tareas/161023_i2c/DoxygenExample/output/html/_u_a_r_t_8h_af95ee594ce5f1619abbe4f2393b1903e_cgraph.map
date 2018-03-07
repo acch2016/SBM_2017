@@ -1,0 +1,4 @@
+<map id="UART_putString" name="UART_putString">
+<area shape="rect" id="node2" href="$_u_a_r_t_8c.html#ae69fe2846b6410c22876356a9b3f0083" title="It sends one character through the serial port. This function should include the next sentence: while..." alt="" coords="168,5,276,32"/>
+<area shape="rect" id="node3" href="$_u_a_r_t_8c.html#aaedfd7d062f22ca770958fee47be83b6" title="UARTx_S1" alt="" coords="324,5,411,32"/>
+</map>

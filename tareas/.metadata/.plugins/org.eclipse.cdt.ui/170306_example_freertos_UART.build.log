@@ -1,0 +1,11 @@
+19:06:11 **** Incremental Build of configuration Debug for project 170306_example_freertos_UART ****
+make -j4 all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "170306_example_freertos_UART.elf"
+   text	   data	    bss	    dec	    hex	filename
+  30788	    160	  13160	  44108	   ac4c	170306_example_freertos_UART.elf
+Finished building: 170306_example_freertos_UART.siz
+ 
+
+19:06:19 Build Finished (took 8s.283ms)
+

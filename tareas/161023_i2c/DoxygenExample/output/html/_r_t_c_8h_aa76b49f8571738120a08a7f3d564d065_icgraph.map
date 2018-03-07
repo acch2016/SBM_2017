@@ -1,0 +1,6 @@
+<map id="RTC_get_String_Date" name="RTC_get_String_Date">
+<area shape="rect" id="node2" href="$_f_s_m_l_c_d_8h.html#aba6ee3bc1bf307933304682f3d9c1728" title="/* Función que se encarga de llamar a funciones que leen la hora del RTC " alt="" coords="216,5,317,32"/>
+<area shape="rect" id="node3" href="$_f_s_m_l_c_d_8h.html#af059e8fa50704e2c0bec8995044bc85e" title="/* Función del estado que hace el llamado de funciones que permiten configurar la fecha ..." alt="" coords="233,56,300,83"/>
+<area shape="rect" id="node4" href="$menu_8h.html#a504975bba09dfde91a2c9ee6d2370c07" title="menu principal de la terminales que utilizan UART " alt="" coords="200,107,333,133"/>
+<area shape="rect" id="node5" href="$menu_8h.html#ad5f7f79d47bb75a628da8cc7a4e98688" title="función / estado en el cual se puede leer la fecha " alt="" coords="211,157,323,184"/>
+</map>

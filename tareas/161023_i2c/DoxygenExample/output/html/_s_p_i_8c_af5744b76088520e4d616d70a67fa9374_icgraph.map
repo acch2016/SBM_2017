@@ -1,0 +1,4 @@
+<map id="SPI_clockPolarity" name="SPI_clockPolarity">
+<area shape="rect" id="node2" href="$_s_p_i_8h.html#a31152f14e43ecf7368324eb0a0542dd5" title="It configures the SPI for transmission, this function as arguments receives a pointer to a constant s..." alt="" coords="179,5,245,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="293,5,344,32"/>
+</map>

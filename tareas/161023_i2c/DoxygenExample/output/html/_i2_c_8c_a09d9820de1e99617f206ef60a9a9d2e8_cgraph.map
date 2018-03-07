@@ -1,0 +1,4 @@
+<map id="I2C_start" name="I2C_start">
+<area shape="rect" id="node2" href="$_i2_c_8c.html#a0f3ef5ef6878c9337e4bd8341628e42e" title="It selects between transmitter mode or receiver mode. " alt="" coords="146,5,270,32"/>
+<area shape="rect" id="node3" href="$_i2_c_8c.html#a2371441eff8976056f8ffbe086176783" title="It selects between master or slave mode. " alt="" coords="128,56,288,83"/>
+</map>

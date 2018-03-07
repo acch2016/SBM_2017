@@ -1,0 +1,12 @@
+<map id="I2C.h" name="I2C.h">
+<area shape="rect" id="node2" href="$_r_t_c_8h.html" title="RTC. " alt="" coords="132,80,190,107"/>
+<area shape="rect" id="node5" href="$menu_8h.html" title="el menu principal de las terminales " alt="" coords="207,229,272,256"/>
+<area shape="rect" id="node9" href="$_i2_c_8c.html" title="I2C.c" alt="" coords="436,80,488,107"/>
+<area shape="rect" id="node10" href="$_memory_8h.html" title="Memory.h" alt="" coords="332,80,412,107"/>
+<area shape="rect" id="node3" href="$_f_s_m_l_c_d_8h.html" title="FSMLCD.h" alt="" coords="36,155,123,181"/>
+<area shape="rect" id="node6" href="$main_8c.html" title="main.c" alt="" coords="125,304,186,331"/>
+<area shape="rect" id="node8" href="$_r_t_c_8c.html" title="this module is for obtain and write date and hour " alt="" coords="198,155,257,181"/>
+<area shape="rect" id="node4" href="$_f_s_m_l_c_d_8c.html" title="FSMLCD.c" alt="" coords="36,229,123,256"/>
+<area shape="rect" id="node7" href="$menu_8c.html" title="menu.c" alt="" coords="211,304,276,331"/>
+<area shape="rect" id="node11" href="$_memory_8c.html" title="Memory.c" alt="" coords="382,155,462,181"/>
+</map>

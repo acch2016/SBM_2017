@@ -1,0 +1,10 @@
+<map id="getModule_State" name="getModule_State">
+<area shape="rect" id="node2" href="$_r_t_c_8h.html#aa76b49f8571738120a08a7f3d564d065" title="entrega la fecha en un string " alt="" coords="173,157,320,184"/>
+<area shape="rect" id="node7" href="$_r_t_c_8h.html#a8cb2ebc7b464f6eb7231a5e5b98400af" title="entrega la hora en un string " alt="" coords="173,107,320,133"/>
+<area shape="rect" id="node3" href="$_f_s_m_l_c_d_8h.html#aba6ee3bc1bf307933304682f3d9c1728" title="/* Función que se encarga de llamar a funciones que leen la hora del RTC " alt="" coords="384,107,485,133"/>
+<area shape="rect" id="node4" href="$_f_s_m_l_c_d_8h.html#af059e8fa50704e2c0bec8995044bc85e" title="/* Función del estado que hace el llamado de funciones que permiten configurar la fecha ..." alt="" coords="401,208,468,235"/>
+<area shape="rect" id="node5" href="$menu_8h.html#a504975bba09dfde91a2c9ee6d2370c07" title="menu principal de la terminales que utilizan UART " alt="" coords="368,157,501,184"/>
+<area shape="rect" id="node6" href="$menu_8h.html#ad5f7f79d47bb75a628da8cc7a4e98688" title="función / estado en el cual se puede leer la fecha " alt="" coords="379,259,491,285"/>
+<area shape="rect" id="node8" href="$_f_s_m_l_c_d_8h.html#aaea0e23d6555c9ede1e61133c8e2cfe6" title="/* Función del estado que hace el llamado de funciones que permiten configurar la hora ..." alt="" coords="401,5,468,32"/>
+<area shape="rect" id="node9" href="$menu_8h.html#a1b1ff2befe8f028af5976f536526b60a" title="función / estado en el cual se puede leer la hora " alt="" coords="379,56,491,83"/>
+</map>
